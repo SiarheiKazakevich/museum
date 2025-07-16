@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Forum';
+  src: url('../fonts/Forum-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainwraper {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  max-width: 1920px;
+  border: 1px solid white;
+}
+
+.wraperheader {
+  background-color: #030303;
+  width: 100%;
+  max-width: 1920px;
+  height: 150px;
+  /*border: 1px solid #FFFFFF;*/
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.page-header {
+  width: 100%;
+  max-width: 1440px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.logobox {
+  width: 199px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*border: 1px solid white;*/
+}
+
+.logo {
+  background-image: url('../assets/logo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 49px;
+  height: 26px;
+  margin: 0px 0px 11px 0px;
+}
+
+.textlogo {
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.navbox {
+  width: 100%;
+  max-width: 775px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  /*border: 1px solid white;*/
+
+}
+
+.nav-list {
+  width: 100%;
+  max-width: 775px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  /*border: 1px solid white;*/
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
