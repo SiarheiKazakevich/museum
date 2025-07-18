@@ -33,8 +33,9 @@ body {
   color: inherit;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
   width: 100%;
   max-width: 1920px;
   border: 1px solid white;
@@ -135,4 +136,232 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/*---------welcome section-----------*/
+.page-main {
+  background-color: #030303;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 1920px;
+  height: 810px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: #030303;
+
+}
+
+.mainwelcomecontent {
+  /* max-width: 100%;*/
+  width: 1440px;
+  height: 810px;
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.textbox {
+  position: relative;
+  width: 440px;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  z-index: 3;
+  margin: 0px 0px 0px 0px;
+}
+
+.mainwelcometitle {
+  /*position: absolute;*/
+  width: 598px;
+  height: 180px;
+  color: rgb(255, 255, 255);
+  font-family: Forum;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.welcomesecondtext {
+  width: 445px;
+  height: 33px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.welcomebutton {
+  width: 360px;
+  height: 75px;
+  border-radius: 10px;
+  background: rgb(113, 7, 7);
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.monnalizabox {
+  position: relative;
+  width: 1000px;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*flex-direction: row-reverse;*/
+  align-items: end;
+  z-index: 1;
+}
+
+.fotomonnaliza {
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 16.194%, rgba(0, 0, 0, 0) 30.729%),
+    url('../assets/monnaliza.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 750px;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.welcomesliderbox {
+  background-color: rgb(3, 3, 3, 0.5);
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.numsbox {
+  width: 76px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftnum,
+.rightnum {
+  width: 25px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.centerborder {
+  width: 25px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.squaresbox {
+  width: 180px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.colorbru {
+  background: rgb(210, 177, 131);
+}
+
+.arrowsbox {
+  width: 80px;
+  height: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  width: 30px;
+  height: 8px;
+  background: rgb(255, 255, 255);
+}
+
+/*---------visiting section-----------*/
+.visiting {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 1920px;
+  height: 1266px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.visitingtitlebox {
+  width: 100%;
+  max-width: 1440px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.visitingcartsbox {
+  width: 100%;
+  max-width: 1440px;
+  height: 923px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 карточки в ряд */
+  grid-template-rows: repeat(2, 424px);
+  /* 2 ряда по 424px */
+  justify-content: space-between;
+  /* space-between по горизонтали */
+  align-content: space-between;
+  /* space-between по вертикали */
 }
