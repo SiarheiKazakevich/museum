@@ -338,7 +338,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
+  padding: 75px 0px 75px 0px;
 }
 
 .visitingtitlebox {
@@ -351,12 +352,34 @@ body {
   align-items: start;
 }
 
+
+
+.visitingmaintitle {
+  width: 543px;
+  height: 90px;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 4.9px;
+  text-transform: uppercase;
+  color: #9D8665;
+  text-align: center;
+
+}
+
+.visitingbiglain {
+  width: 1440px;
+  height: 3px;
+  border: solid 1.5px #710707;
+}
+
 .visitingcartsbox {
   width: 100%;
   max-width: 1440px;
   height: 923px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 440px);
   /* 3 карточки в ряд */
   grid-template-rows: repeat(2, 424px);
   /* 2 ряда по 424px */
@@ -364,4 +387,94 @@ body {
   /* space-between по горизонтали */
   align-content: space-between;
   /* space-between по вертикали */
+}
+
+.cartssize {
+  width: 440px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.visitingcartsfotobox {
+  width: 440px;
+  height: 285px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.visitingcartsfotobox1 {
+  background-image: url(../assets/visitingimage1.jpg);
+}
+
+.visitingcartsfotobox2 {
+  background-image: url(../assets/visitingimage2.jpg);
+}
+
+.visitingcartsfotobox3 {
+  background-image: url(../assets/visitingimage3.jpg);
+}
+
+.visitingcartsfotobox4 {
+  background-image: url(../assets/visitingimage4.jpg);
+}
+
+.visitingcartsfotobox5 {
+  background-image: url(../assets/visitingimage5.jpg);
+}
+
+.visitingcartsfotobox6 {
+  background-image: url(../assets/visitingimage6.jpg);
+}
+
+.visitingtextbox {
+  width: 440px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.visitingcartstitle {
+  width: fit-content;
+  height: 35px;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.visitingcartline {
+  width: 300px;
+  height: 1px;
+  border: solid 1px #710707;
+}
+
+.visitingfirstlitletext {
+  width: fit-content;
+  height: 25px;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.visitingsecondlitletext {
+  width: fit-content;
+  height: 21px;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
 }
