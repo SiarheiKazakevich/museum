@@ -1274,3 +1274,129 @@ body {
   align-items: center;
 
 }
+
+/*---------gallery section-----------*/
+.paralax {
+  background-image: url(../assets/parallax.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1920px;
+  height: 400px;
+
+  margin: 0px 0px 0px 0px;
+}
+
+/*---------contacts section-----------*/
+.contacts {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 1920px;
+  height: 963px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.contactscontentbox {
+  width: 100%;
+  max-width: 1440px;
+  height: 813px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactstitlebox {
+  width: 100%;
+  max-width: 1440px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contactstitle {
+  width: 472;
+  height: 90;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.contactsline {
+  width: 100%;
+  max-width: 1440px;
+  height: 3px;
+  border: solid 1.5px #710707;
+}
+
+.contactswrapermapbox {
+  width: 100%;
+  max-width: 1440px;
+  height: 620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contactsadressbox {
+  width: 282px;
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.adresstitle {
+  width: 227px;
+  height: 66px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.adrestextbox {
+  width: 282px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.adresstextsize {
+  width: 282px;
+  height: 26px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  color: #000000;
+}
+
+
+.contactsmapphoto {
+  background-image: url(../assets/mapphoto.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 620px;
+}
