@@ -589,3 +589,245 @@ body {
   position: absolute;
   margin: 0px 0px 0px 421px;
 }
+
+/*---------video section-----------*/
+.video {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1920px;
+  height: 1396px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.videowrapercontent {
+  width: 100%;
+  max-width: 1440px;
+  height: 1246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videowrapertitlebox {
+  width: 100%;
+  max-width: 1440px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videotitle {
+  width: 606px;
+  height: 90px;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+
+}
+
+.videolittletext {
+  width: 720px;
+  height: 90px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #000000;
+  margin: 13px 0px 0px 0px;
+}
+
+.videowrapervideobox {
+  width: 100%;
+  max-width: 1440px;
+  height: 1081px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videocinemabox {
+  width: 100%;
+  max-width: 1440px;
+  height: 735px
+}
+
+.videofotocinema {
+  background-image: url(../assets/louvrevideofoto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 650px;
+}
+
+.videofotocontrols {
+  background-image: url(../assets/controlsfoto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 85px;
+}
+
+.videosliderbox {
+  width: 100%;
+  max-width: 1440px;
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wraperslidersvideos {
+  width: 100%;
+  max-width: 1440px;
+  height: 254px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slidersvideosbox {
+  width: 452px;
+  height: 254px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slidersvideosboxn1 {
+  background-image: url(../assets/slidersvideofoto1.jpg);
+}
+
+.slidersvideosboxn2 {
+  background-image: url(../assets/slidersvideofoto2.jpg);
+}
+
+.slidersvideosboxn3 {
+  background-image: url(../assets/slidersvideofoto3.jpg);
+}
+
+.slidersvideosboxcontent {
+  width: 406px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px 0px 10px;
+}
+
+.slidersvideotitlebox {
+  width: 406px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slidersvideoicon {
+  width: 40px;
+  height: 40px;
+  border-radius: 16px;
+  background-image: url(../assets/iconmonnaliza.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slidersvideotitle {
+  width: 329px;
+  height: 39px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38.5px;
+  vertical-align: middle;
+  color: #FFFFFF;
+  margin: 0px 0px 0px -10px;
+}
+
+.slidersvideo3points {
+  width: 4px;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slidersvideopoint {
+  width: 4px;
+  height: 4px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+
+.sliderplaybuttonbox {
+  width: 68px;
+  height: 48px;
+  border-radius: 16px;
+  background-image: url(../assets/iconyoutube.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px 0px 0px 25px;
+}
+
+
+
+
+.wrapersliderscontrolsbuttons {
+  width: 200px;
+  height: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftliderscontrolsbuttonsize {
+  width: 10px;
+  height: 12px;
+  border-radius: 16px;
+  background-image: url(../assets/leftarrows.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rightliderscontrolsbuttonsize {
+  width: 10px;
+  height: 12px;
+  border-radius: 16px;
+  background-image: url(../assets/rightarrows.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sliderscontrolsbuttonsize {
+  width: 12px;
+  height: 12px;
+  background-color: #999999;
+  border-radius: 16px;
+}
+
+.blackcolor {
+  background-color: #333333;
+}
