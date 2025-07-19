@@ -453,13 +453,13 @@ body {
 
 .visitingcartline {
   width: 300px;
-  height: 1px;
+  height: 2px;
   border: solid 1px #710707;
 }
 
 .visitingfirstlitletext {
   width: fit-content;
-  height: 25px;
+  height: 26px;
   font-family: Roboto;
   font-weight: 200;
   font-size: 22px;
@@ -477,4 +477,115 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #000000;
+}
+
+/*---------explore section-----------*/
+.explore {
+  background-color: #030303;
+  width: 100%;
+  max-width: 1920px;
+  height: 865px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.explorecontentbox {
+  width: 100%;
+  max-width: 1440px;
+  height: 715px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.explorewrapertextbox {
+  width: 100%;
+  max-width: 660px;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exploretitlebox {
+  width: 660px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exploretitle {
+  width: 660px;
+  height: 90px;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.exploreline {
+  width: 660px;
+  height: 3px;
+  border: solid 1.5px #710707;
+}
+
+.explorelittletextbox {
+  width: 660px;
+  height: 281px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explorelittletext {
+  width: 660px;
+  height: 77px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.explorewraperfotobox {
+  background-image: url(../assets/explorebigfoto.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 720px;
+  height: 700px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 15px 0px 0px 0px;
+}
+
+.explorefotoboxn1 {
+  background-image: url(../assets/explorelittlefoto.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 700px;
+}
+
+.explorefotoboxn2 {
+  background-image: url(../assets/exploresliderfoto.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 700px;
+  position: absolute;
+  margin: 0px 0px 0px 421px;
 }
