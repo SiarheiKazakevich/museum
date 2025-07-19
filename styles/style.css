@@ -981,3 +981,296 @@ body {
   height: 342px;
   background-image: url(../assets/right4.png);
 }
+
+/*---------gallery section-----------*/
+.tickets {
+  background-color: #FFFFFF;
+  width: 100%;
+  max-width: 1920px;
+  height: 893px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.ticketscontentbox {
+  width: 100%;
+  max-width: 1440px;
+  height: 743px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticketstitlebox {
+  width: 100%;
+  max-width: 1440px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.ticketstitle {
+  width: 472;
+  height: 90;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.ticketsline {
+  width: 100%;
+  max-width: 1440px;
+  height: 3px;
+  border: solid 1.5px #710707;
+}
+
+.ticketpaybox {
+  width: 100%;
+  max-width: 1440px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.ticketsimagebox {
+  width: 720px;
+  height: 550px;
+  background-image: url(../assets/ticketsfoto.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.ticketslittlepaybox {
+  width: 660px;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.ticketstypebox {
+  width: 270px;
+  height: 211px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+
+}
+
+.ticketstypetitle {
+  width: 156px;
+  height: 33px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.ticketsform {
+  width: 270px;
+  height: 128px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.custom-radio {
+  width: 270px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  gap: 19px;
+  /* расстояние между кружком и текстом */
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+  /* скрываем стандартную кнопку */
+}
+
+.radio-mark {
+  width: 21px;
+  /* размер кружочка */
+  height: 21px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.custom-radio input[type="radio"]:checked~.radio-mark::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 10px;
+  height: 10px;
+  background-color: #444;
+  /* цвет внутренней точки */
+  border-radius: 50%;
+}
+
+.amoundandtotalbox {
+  width: 175px;
+  height: 443px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.amoundbox {
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.amoundtitle {
+  width: 100px;
+  height: 33px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.amoundcontentbox {
+  width: 150px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amoundlittlebox {
+  width: 150px;
+  height: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.amoundlittletext {
+  width: 150px;
+  height: 26px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.amoundcountbox {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 12px 0px 12px;
+  border: 3px solid #000000
+}
+
+.amoundznak {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+}
+
+.amoundnumbar {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+.totalbox {
+  width: 175px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.totalprice {
+  width: 151px;
+  height: 33px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 1.65px;
+  color: #000000;
+  text-align: center;
+  margin: -5px 0px 0px 0px;
+}
+
+.totalbutton {
+  width: 175px;
+  height: 50px;
+  border-radius: 16px;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
