@@ -831,3 +831,153 @@ body {
 .blackcolor {
   background-color: #333333;
 }
+
+/*---------gallery section-----------*/
+.gallery {
+  background-color: #333333;
+  width: 100%;
+  max-width: 1920px;
+  height: 2200px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0px 0px 0px 0px;
+}
+
+.gallerycontentbox {
+  background-color: #333333;
+  width: 100%;
+  max-width: 1440px;
+  height: 2125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0px 0px 0px 0px;
+}
+
+.gallerytitle {
+  width: 518px;
+  height: 90px;
+  font-family: Forum;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.gallerygradientbox {
+  position: absolute;
+  top: 6330px;
+  width: 100%;
+  max-width: 1440px;
+  height: 360px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  border: solid 2px #FFFFFF;
+}
+
+.gallerywraperfotobox {
+  width: 100%;
+  max-width: 1440px;
+  height: 1960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.galleryleftwrapervideos {
+  width: 456px;
+  height: 1910px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galleryvideo {
+  width: 456px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.leftvideo1 {
+  height: 570px;
+  background-image: url(../assets/left1.png);
+}
+
+.leftvideo2 {
+  height: 570px;
+  background-image: url(../assets/left2.png);
+}
+
+.leftvideo3 {
+  height: 456px;
+  background-image: url(../assets/left3.png);
+}
+
+.leftvideo4 {
+  height: 242px;
+  background-image: url(../assets/left4.png);
+}
+
+.gallerycentrwrapervideos {
+  width: 456px;
+  height: 1960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.centervideo1 {
+  height: 456px;
+  background-image: url(../assets/center1.png);
+}
+
+.centervideo2 {
+  height: 570px;
+  background-image: url(../assets/center2.png);
+}
+
+.centervideo3 {
+  height: 570px;
+  background-image: url(../assets/center3.png);
+}
+
+.centervideo4 {
+  height: 292px;
+  background-image: url(../assets/center4.png);
+}
+
+.galleryrightwrapervideos {
+  width: 456px;
+  height: 1896px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 14px 0px;
+}
+
+.rightvideo1 {
+  height: 570px;
+  background-image: url(../assets/right1.png);
+}
+
+.rightvideo2 {
+  height: 456px;
+  background-image: url(../assets/right2.png);
+}
+
+.rightvideo3 {
+  height: 456px;
+  background-image: url(../assets/right3.png);
+}
+
+.rightvideo4 {
+  height: 342px;
+  background-image: url(../assets/right4.png);
+}
