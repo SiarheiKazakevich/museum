@@ -161,15 +161,16 @@ body {
 }
 
 .mainwelcomecontent {
-  /* max-width: 100%;*/
+  max-width: 100%;
   width: 1440px;
   height: 810px;
-  position: relative;
+  /* position: relative;*/
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   box-sizing: border-box;
+  margin: 0px 0px 0px 0px;
 }
 
 .textbox {
@@ -181,7 +182,7 @@ body {
   justify-content: space-between;
   align-items: start;
   z-index: 3;
-  margin: 0px 0px 0px 0px;
+  margin: 150px 0px 0px 0px;
 }
 
 .mainwelcometitle {
@@ -208,6 +209,7 @@ body {
   line-height: 33px;
   letter-spacing: 2px;
   text-align: left;
+  margin: -50px 0px 0px 0px;
 }
 
 .welcomebutton {
@@ -222,6 +224,9 @@ body {
   line-height: 26px;
   letter-spacing: 2px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .monnalizabox {
@@ -259,7 +264,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 690px 0px 0px 0px;
 }
 
 .numsbox {
@@ -268,6 +274,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 0px 0px 9px;
 }
 
 .leftnum,
@@ -293,7 +300,7 @@ body {
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0px;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -303,6 +310,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 0px 0px -8px;
 }
 
 .square {
@@ -321,12 +329,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: -5px 10px 0px 0px;
 }
 
 .arrow {
   width: 30px;
   height: 8px;
-  background: rgb(255, 255, 255);
+  /*background: rgba(0, 0, 0, 0.5);*/
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
 }
 
 /*---------visiting section-----------*/
@@ -1217,6 +1231,10 @@ body {
   color: #000000;
 }
 
+.amoundminus {
+  margin: 0px 0px 3px 0px;
+}
+
 .amoundnumbar {
   font-family: Roboto;
   font-weight: 300;
@@ -1259,7 +1277,7 @@ body {
 .totalbutton {
   width: 175px;
   height: 50px;
-  border-radius: 16px;
+  border-radius: 1px;
   background: #000000;
   color: rgb(255, 255, 255);
   font-family: Roboto;
@@ -1563,4 +1581,11 @@ body {
   line-height: 22px;
   letter-spacing: 2px;
   color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+}
+
+.rsschooltext1 {
+  width: 304px;
+  height: 22px;
+  margin: 0px 0px 0px 33px;
 }
