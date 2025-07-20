@@ -32,7 +32,7 @@
     </header>
   </div>
   <main class="page-main">
-    <section class="welcome">
+    <section class="welcome" id="welcome">
       <div class="mainwelcomecontent">
         <div class="textbox">
           <h1 class="mainwelcometitle">Welcome<br>to the Louvre</h1>
@@ -63,7 +63,7 @@
         </div>
       </div>
     </section>
-    <section class="visiting">
+    <section class="visiting" id="visiting">
       <div class="visitingtitlebox">
         <h2 class="visitingmaintitle">Virtual tour</h2>
         <div class="visitingbiglain"></div>
@@ -131,11 +131,11 @@
         </div>
       </div>
     </section>
-    <section class="explore">
+    <section class="explore" id="explore">
       <div class="explorecontentbox">
         <div class="explorewrapertextbox">
           <div class="exploretitlebox">
-            <h3 class="exploretitle">Picture explore</h3>
+            <h2 class="exploretitle">Picture explore</h2>
             <div class="exploreline"></div>
           </div>
           <div class="explorelittletextbox">
@@ -155,10 +155,10 @@
         </div>
       </div>
     </section>
-    <section class="video">
+    <section class="video" id="video">
       <div class="videowrapercontent">
         <div class="videowrapertitlebox">
-          <h3 class="videotitle">Video journey</h3>
+          <h2 class="videotitle">Video journey</h2>
           <p class="videolittletext">Enter and visit one of the most famous museums in the world and enjoy masterpieces
             such as Mona Lisa or Hammurabi's Code</p>
         </div>
@@ -227,7 +227,7 @@
 
       </div>
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <div class="gallerycontentbox">
         <h2 class="gallerytitle">Art Gallery</h2>
         <div class="gallerygradientbox"></div>
@@ -253,7 +253,7 @@
         </div>
       </div>
     </section>
-    <section class="tickets">
+    <section class="tickets" id="tickets">
       <div class="ticketscontentbox">
         <div class="ticketstitlebox">
           <h2 class="ticketstitle">BUY TICKETS</h2>
@@ -264,7 +264,7 @@
           <div class="ticketslittlepaybox">
             <div class="ticketstypebox">
               <h4 class="ticketstypetitle">Ticket Type</h4>
-              <form action="" class="ticketsform">
+              <form action="/submit-form" class="ticketsform">
                 <label class="custom-radio">
                   <input type="radio" name="choice" value="choice1" checked>
                   <span class="radio-mark"></span>
@@ -316,8 +316,10 @@
         </div>
       </div>
     </section>
-    <sectopn class="paralax"></sectopn>
-    <section class="contacts">
+    <section class="paralax">
+      <h2 class="titleparalax">hi</h2>
+    </section>
+    <section class="contacts" id="contacts">
       <div class="contactscontentbox">
         <div class="contactstitlebox">
           <h2 class="contactstitle">contacts</h2>
@@ -327,13 +329,21 @@
           <div class="contactsadressbox">
             <h4 class="adresstitle">Palais Royal Musee du Louvre</h4>
             <div class="adrestextbox">
-              <p class="adresstextsize adrestextn1">address: 75001 Paris, France</p>
-              <p class="adresstextsize adrestextn2">phone: +33(0) 1 40 20 50 50</p>
-              <p class="adresstextsize adrestextn3">mail: info@louvre.fr</p>
+              <p class="adresstextsize adrestextn1">
+                <a href="https://www.google.com/maps?q=75001+Paris,+France" target="_blank"
+                  rel="noopener noreferrer">address: 75001 Paris, France</a>
+              </p>
+              <p class="adresstextsize adrestextn2">
+                <a href="tel:+33140205050">phone: +33(0) 1 40 20 50 50</a>
+              </p>
+              <p class="adresstextsize adrestextn3">
+                <a href="mailto:info@louvre.fr">mail: info@louvre.fr</a>
+              </p>
             </div>
           </div>
           <div class="contactsmapphoto"></div>
         </div>
+      </div>
     </section>
 
   </main>
@@ -345,48 +355,60 @@
             <div class="footerlogo"></div>
             <span class="footertextlogo">LOUVRE</span>
           </div>
-          <div class="footernavigationssections">
-            <div class="navigationssections">
-              <p class="navigationstext">Visiting</p>
-              <p class="navigationstext">Explore</p>
-              <p class="navigationstext">Video</p>
-            </div>
-            <div class="navigationssections">
-              <p class="navigationstext">Gallery</p>
-              <p class="navigationstext">Tickets</p>
-              <p class="navigationstext">Contacts</p>
-            </div>
-          </div>
+          <nav class="footernavigationssections">
+            <ul class="navigationssections">
+              <li class="navigationstext"><a href="#visiting">Visiting</a></li>
+              <li class="navigationstext"><a href="#explore">Explore</a></li>
+              <li class="navigationstext"><a href="#video">Video</a></li>
+            </ul>
+            <ul class="navigationssections">
+              <li class="navigationstext"><a href="#gallery">Gallery</a></li>
+              <li class="navigationstext"><a href="#tickets">Tickets</a></li>
+              <li class="navigationstext"><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="footerwrapersocialmediabox">
-          <div class="wrapersocialmediaboxsize">
-            <div class="footericonsize footericonn1"></div>
-          </div>
-          <div class="wrapersocialmediaboxsize">
-            <div class="footericonsize footericonn2"></div>
-          </div>
-          <div class="wrapersocialmediaboxsize">
-            <div class="footericonsize footericonn3"></div>
-          </div>
-          <div class="wrapersocialmediaboxsize">
-            <div class="footericonsize footericonn4"></div>
-          </div>
-          <div class="wrapersocialmediaboxsize">
-            <div class="footericonsize footericonn5"></div>
-          </div>
-        </div>
+        <ul class="footerwrapersocialmediabox">
+          <li class="wrapersocialmediaboxsize">
+            <a href="https://www.youtube.com/watch?v=6vuFh6NNa70">
+              <div class="footericonsize footericonn1"></div>
+            </a>
+          </li>
+          <li class="wrapersocialmediaboxsize">
+            <a href="https://www.instagram.com/museelouvre/?hl=ru">
+              <div class="footericonsize footericonn2"></div>
+            </a>
+          </li>
+          <li class="wrapersocialmediaboxsize">
+            <a href="https://www.facebook.com/museedulouvre/">
+              <div class="footericonsize footericonn3"></div>
+            </a>
+          </li>
+          <li class="wrapersocialmediaboxsize">
+            <a href="https://x.com/museum_louvre">
+              <div class="footericonsize footericonn4"></div>
+            </a>
+          </li>
+          <li class="wrapersocialmediaboxsize">
+            <a href="https://fr.pinterest.com/museedulouvre/">
+              <div class="footericonsize footericonn5"></div>
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="footerrsschoolbox">
         <p class="rsscholsizes">© 2021</p>
-        <p class="rsscholsizes rsschooltext1">The Rolling Scopes School</p>
-        <p class="rsscholsizes">Username</p>
+        <p class="rsscholsizes rsschooltext1">
+          <a href="https://rs.school/">The Rolling Scopes School</a>
+        </p>
+        <p class="rsscholsizes">
+          <a href="https://github.com/SiarheiKazakevich">Username</a>
+        </p>
       </div>
 
     </div>
   </footer>
 </div>
-
-<body>
 
 </body>
 

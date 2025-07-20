@@ -24,6 +24,17 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  /* или любой другой цвет */
+  text-decoration: none;
+  /* убирает подчёркивание */
+}
+
 .mainwraper {
   margin: 0;
   padding: 0;
@@ -59,7 +70,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .logobox {
@@ -107,6 +118,27 @@ body {
   letter-spacing: 2px;
   /*border: 1px solid white;*/
 
+}
+
+.navbox a {
+  color: inherit;
+  /* унаследует цвет родителя или задай свой, например: black */
+  text-decoration: none;
+  /* убирает подчёркивание */
+  transition: color 0.3s;
+  /* плавный переход цвета */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.navbox a:hover {
+  color: #fdcccc;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.1);
 }
 
 .nav-list {
@@ -227,6 +259,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.welcomebutton {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.welcomebutton:hover {
+  font-weight: 400;
+  color: hsl(63, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.03);
+  border: solid 1px #d6fb04;
+
 }
 
 .monnalizabox {
@@ -410,6 +465,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  transition: transform 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.cartssize:hover {
+  transform: scale(1.02);
+  /* лёгкое увеличение карточки */
 }
 
 .visitingcartsfotobox {
@@ -469,6 +532,11 @@ body {
   width: 300px;
   height: 2px;
   border: solid 1px #710707;
+  transition: width 0.4s ease;
+}
+
+.cartssize:hover .visitingcartline {
+  width: 439px;
 }
 
 .visitingfirstlitletext {
@@ -1126,6 +1194,27 @@ body {
   /* расстояние между кружком и текстом */
 }
 
+.custom-radio {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.custom-radio:hover {
+  font-weight: 400;
+  color: hsl(135, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.02);
+}
+
 .custom-radio input[type="radio"] {
   display: none;
   /* скрываем стандартную кнопку */
@@ -1290,12 +1379,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.totalbutton {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.totalbutton:hover {
+  font-weight: 400;
+  color: hsl(63, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.03);
+  border: solid 3px #d6fb04;
 
 }
 
 /*---------gallery section-----------*/
 .paralax {
   background-image: url(../assets/parallax.png);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1304,6 +1416,11 @@ body {
   height: 400px;
 
   margin: 0px 0px 0px 0px;
+}
+
+/*---------paralax section-----------*/
+.titleparalax {
+  display: none;
 }
 
 /*---------contacts section-----------*/
@@ -1394,6 +1511,24 @@ body {
   align-items: start;
 }
 
+.adrestextbox a {
+  color: inherit;
+  /* унаследует цвет родителя или задай свой, например: black */
+  text-decoration: none;
+  /* убирает подчёркивание */
+  transition: color 0.3s;
+  /* плавный переход цвета */
+  cursor: pointer;
+  /* курсор в виде руки */
+}
+
+.adrestextbox a:hover {
+  color: #a52a2a;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: underline;
+  /* если хочешь возвращать подчёркивание */
+}
+
 .adresstextsize {
   width: 282px;
   height: 26px;
@@ -1407,6 +1542,14 @@ body {
   letter-spacing: 0%;
   vertical-align: bottom;
   color: #000000;
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.adresstextsize:hover {
+  transform: scale(1.04);
 }
 
 .contactsmapphoto {
@@ -1499,6 +1642,25 @@ body {
   margin: 12px 0px 0px 0px;
 }
 
+.navigationstext {
+  color: inherit;
+  /* унаследует цвет родителя или задай свой, например: black */
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.navigationstext:hover {
+  color: #fdcccc;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.05);
+}
+
 .navigationssections {
   width: 107px;
   height: 128px;
@@ -1506,6 +1668,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  list-style: none;
+  text-decoration: none;
 }
 
 .navigationstext {
@@ -1534,6 +1698,27 @@ body {
   align-items: center;
   border: 1px solid #666666;
   border-radius: 50%;
+}
+
+.wrapersocialmediaboxsize {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.wrapersocialmediaboxsize:hover {
+  color: #fdcccc;
+  border: 3px solid hsl(135, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.05);
 }
 
 .footericonsize {
@@ -1582,6 +1767,26 @@ body {
   letter-spacing: 2px;
   color: #FFFFFF;
   margin: 0px 0px 0px 0px;
+}
+
+.rsscholsizes {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.rsscholsizes:hover {
+  color: #fdcccc;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.05);
 }
 
 .rsschooltext1 {
