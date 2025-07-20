@@ -261,6 +261,29 @@ a {
   align-items: center;
 }
 
+.welcomebutton {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.welcomebutton:hover {
+  font-weight: 400;
+  color: hsl(63, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.03);
+  border: solid 1px #d6fb04;
+
+}
+
 .monnalizabox {
   position: relative;
   width: 1000px;
@@ -1171,6 +1194,27 @@ a {
   /* расстояние между кружком и текстом */
 }
 
+.custom-radio {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.custom-radio:hover {
+  font-weight: 400;
+  color: hsl(135, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.02);
+}
+
 .custom-radio input[type="radio"] {
   display: none;
   /* скрываем стандартную кнопку */
@@ -1335,12 +1379,35 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.totalbutton {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.totalbutton:hover {
+  font-weight: 400;
+  color: hsl(63, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.03);
+  border: solid 3px #d6fb04;
 
 }
 
 /*---------gallery section-----------*/
 .paralax {
   background-image: url(../assets/parallax.png);
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1575,6 +1642,25 @@ a {
   margin: 12px 0px 0px 0px;
 }
 
+.navigationstext {
+  color: inherit;
+  /* унаследует цвет родителя или задай свой, например: black */
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.navigationstext:hover {
+  color: #fdcccc;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.05);
+}
+
 .navigationssections {
   width: 107px;
   height: 128px;
@@ -1582,6 +1668,8 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  list-style: none;
+  text-decoration: none;
 }
 
 .navigationstext {
@@ -1610,6 +1698,27 @@ a {
   align-items: center;
   border: 1px solid #666666;
   border-radius: 50%;
+}
+
+.wrapersocialmediaboxsize {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.wrapersocialmediaboxsize:hover {
+  color: #fdcccc;
+  border: 3px solid hsl(135, 94%, 49%);
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.05);
 }
 
 .footericonsize {
@@ -1658,6 +1767,26 @@ a {
   letter-spacing: 2px;
   color: #FFFFFF;
   margin: 0px 0px 0px 0px;
+}
+
+.rsscholsizes {
+  /*color: inherit;
+   унаследует цвет родителя или задай свой, например: black */
+  list-style: none;
+  text-decoration: none;
+  /* убирает подчёркивание */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.rsscholsizes:hover {
+  color: #fdcccc;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.05);
 }
 
 .rsschooltext1 {
