@@ -1310,6 +1310,11 @@ html {
   margin: 0px 0px 0px 0px;
 }
 
+/*---------paralax section-----------*/
+.titleparalax {
+  display: none;
+}
+
 /*---------contacts section-----------*/
 .contacts {
   background-color: #FFFFFF;
