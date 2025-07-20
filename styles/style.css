@@ -28,6 +28,13 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  color: inherit;
+  /* или любой другой цвет */
+  text-decoration: none;
+  /* убирает подчёркивание */
+}
+
 .mainwraper {
   margin: 0;
   padding: 0;
@@ -111,6 +118,27 @@ html {
   letter-spacing: 2px;
   /*border: 1px solid white;*/
 
+}
+
+.navbox a {
+  color: inherit;
+  /* унаследует цвет родителя или задай свой, например: black */
+  text-decoration: none;
+  /* убирает подчёркивание */
+  transition: color 0.3s;
+  /* плавный переход цвета */
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.navbox a:hover {
+  color: #fdcccc;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: none;
+  /* если хочешь возвращать подчёркивание */
+  transform: scale(1.1);
 }
 
 .nav-list {
@@ -414,6 +442,14 @@ html {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
+  transition: transform 0.3s;
+  cursor: pointer;
+  position: relative;
+}
+
+.cartssize:hover {
+  transform: scale(1.02);
+  /* лёгкое увеличение карточки */
 }
 
 .visitingcartsfotobox {
@@ -473,6 +509,11 @@ html {
   width: 300px;
   height: 2px;
   border: solid 1px #710707;
+  transition: width 0.4s ease;
+}
+
+.cartssize:hover .visitingcartline {
+  width: 439px;
 }
 
 .visitingfirstlitletext {
@@ -1403,6 +1444,24 @@ html {
   align-items: start;
 }
 
+.adrestextbox a {
+  color: inherit;
+  /* унаследует цвет родителя или задай свой, например: black */
+  text-decoration: none;
+  /* убирает подчёркивание */
+  transition: color 0.3s;
+  /* плавный переход цвета */
+  cursor: pointer;
+  /* курсор в виде руки */
+}
+
+.adrestextbox a:hover {
+  color: #a52a2a;
+  /* любой цвет при наведении, например: коричневый */
+  text-decoration: underline;
+  /* если хочешь возвращать подчёркивание */
+}
+
 .adresstextsize {
   width: 282px;
   height: 26px;
@@ -1416,6 +1475,14 @@ html {
   letter-spacing: 0%;
   vertical-align: bottom;
   color: #000000;
+  cursor: pointer;
+  /* курсор в виде руки */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.adresstextsize:hover {
+  transform: scale(1.04);
 }
 
 .contactsmapphoto {
