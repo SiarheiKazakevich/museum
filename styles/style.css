@@ -22,6 +22,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 html {
@@ -49,7 +51,8 @@ a {
   align-items: center;
   width: 100%;
   max-width: 1920px;
-  border: 1px solid white;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
 }
 
 .wraperheader {
@@ -71,6 +74,7 @@ a {
   justify-content: space-between;
   align-items: center;
   /*border: 1px solid white;*/
+  margin: 0px 0px 0px 13px;
 }
 
 .logobox {
@@ -80,6 +84,7 @@ a {
   justify-content: space-between;
   align-items: center;
   /*border: 1px solid white;*/
+  margin: 0px 0px 0px 0px;
 }
 
 .logo {
@@ -179,6 +184,7 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  margin: 0px 0px 0px 13px;
 }
 
 .welcome {
@@ -1570,7 +1576,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 13px;
 }
 
 .footercontentbox {
