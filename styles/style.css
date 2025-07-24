@@ -409,12 +409,23 @@ a {
 .arrow {
   width: 30px;
   height: 8px;
-  /*background: rgba(0, 0, 0, 0.5);*/
+  /*background: rgba(0, 0, 0, 0.5);
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   margin: 0px 0px 0px 0px;
+}
+
+.leftarrow {
+  width: 30px;
+  height: 8px;
+}
+
+.rightarrow {
+  width: 30px;
+  height: 8px;
+  transform: rotate(180deg);
 }
 
 /*---------visiting section-----------*/
@@ -1853,7 +1864,151 @@ a {
     align-items: center;
   }
 
+  .page-main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px 0px 0px 0px;
+  }
 
+  /*---------welcome section-----------*/
+
+
+  .welcome {
+    width: 100%;
+    max-width: 1024px;
+    height: 585px;
+    margin: 0px 0px 0px 13px;
+  }
+
+  .mainwelcomecontent {
+    max-width: 100%;
+    width: 984px;
+    height: 525px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .textbox {
+    position: relative;
+    width: 396px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin: 50px 0px 0px 0px;
+    z-index: 3;
+  }
+
+  .mainwelcometitle {
+    /*position: absolute;*/
+    width: 398px;
+    height: 180px;
+    color: rgb(255, 255, 255);
+    font-family: Forum;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .welcomesecondtext {
+    width: 445px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: -30px 0px 0px 2px;
+  }
+
+  .welcomebutton {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgb(113, 7, 7);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 2px;
+    padding: 0px 0px 0px 4px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .monnalizabox {
+    position: relative;
+    width: 700px;
+    height: 585px;
+
+    /*  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row-reverse;*/
+    align-items: end;
+    z-index: 1;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .fotomonnaliza {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 16.194%, rgba(0, 0, 0, 0) 30.729%),
+      url('../assets/monnaliza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 525px;
+    margin: 0px 110px 0px 0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .numsbox {
+    width: 71px;
+    margin: 0px 45px 0px 113px;
+  }
+
+  .squaresbox {
+    width: 160px;
+    margin: 0px 45px 0px 0px;
+  }
+
+  .square {
+    width: 12px;
+    height: 12px;
+    background: rgb(255, 255, 255);
+  }
+
+  .welcomesliderbox {
+    background-color: rgb(3, 3, 3, 0.5);
+    position: absolute;
+    width: 700px;
+    height: 120px;
+    z-index: 2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 465px 0px 0px 0px;
+  }
+
+  .arrow {
+    background-image: url(../assets/arrow.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 8px;
+
+  }
 }
 
 
