@@ -2009,6 +2009,111 @@ a {
     height: 8px;
 
   }
+
+  /*---------visiting section-----------*/
+  .visiting {
+    width: 100%;
+    max-width: 1024px;
+    height: 1433px;
+    margin: 0px 0px 0px 13px;
+    padding: 60px 0px 0px 0px;
+  }
+
+  .visitingtitlebox {
+    width: 984px;
+    height: 98px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .visitingmaintitle {
+    display: block;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: start;
+    margin: 0px 0px 4px 0px;
+    padding: 0px 0px 0px 0px;
+
+  }
+
+  .visitingbiglain {
+    width: 984px;
+  }
+
+  .visitingcartsbox {
+    width: 984px;
+    height: 1313px;
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    grid-template-rows: repeat(3, 345px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .cartssize {
+    width: 330px;
+    height: 345px;
+  }
+
+  .visitingcartsfotobox {
+    width: 330px;
+    height: 215px;
+  }
+
+  .visitingtextbox {
+    width: 330px;
+    height: 105px;
+    margin: 0px 0px 0px 2px;
+    padding: 2px 0px 0px 0px;
+  }
+
+  .cartssize:hover .visitingcartline {
+    width: 329px;
+  }
+
+  .visitingfirstlitletext {
+    width: fit-content;
+    height: 23px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 4px 0px 0px 0px;
+  }
+
+  .visitingsecondlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .visitingcartstitle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    height: 31px;
+
+  }
+
+  .visitingcartline {
+    width: 150px;
+  }
 }
 
 
