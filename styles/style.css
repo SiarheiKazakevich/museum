@@ -2703,10 +2703,6 @@ a {
   }
 
 
-
-
-
-
   .footerwrapersocialmediabox {
     width: 340px;
     height: 48px;
@@ -2766,7 +2762,91 @@ a {
   .textlogo {
     margin: 12px 0px 0px 0px
   }
+
+  .page-main {
+    width: 100%;
+    max-width: 768px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  /*----------welcome section-----------*/
+  .welcome {
+    width: 100%;
+    max-width: 768px;
+    height: 861px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .mainwelcomecontent {
+    max-width: 100%;
+    width: 768px;
+    height: 861px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textbox {
+    position: relative;
+    width: 328px;
+    height: 167px;
+
+    margin: 0px 0px 0px 12px;
+  }
+
+  .mainwelcometitle {
+    /* position: absolute; */
+    width: 332px;
+    height: 120px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .welcomesecondtext {
+    width: 334px;
+    height: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    margin: 0px 0px 0px 0px;
+
+  }
+
+  .welcomebutton {
+    display: none;
+  }
+
+  .monnalizabox {
+    width: 728px;
+    height: 616px;
+    align-items: end;
+    z-index: 1;
+    margin: 0px 0px 30px 15px;
+  }
+
+  .fotomonnaliza {
+    width: 728px;
+    height: 546px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .welcomesliderbox {
+    background-color: rgb(3, 3, 3, 0.5);
+    position: absolute;
+    width: 707px;
+    height: 40px;
+    padding: 0px 0px 0px 30px;
+    margin: 576px 0px 0px 0px;
+  }
 }
+
 
 /* ↓↓↓ адаптация для 420px ↓↓↓ */
 @media screen and (max-width: 420px) {
@@ -2805,4 +2885,137 @@ a {
     text-transform: uppercase;
     margin: 5px 0px 0px 0px
   }
+
+  .page-main {
+    width: 100%;
+    max-width: 420px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  /*----------welcome section 420-----------*/
+  .welcome {
+    width: 100%;
+    max-width: 420px;
+    height: 544px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .mainwelcomecontent {
+    max-width: 100%;
+    width: 420px;
+    height: 544px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textbox {
+    position: relative;
+    width: 276px;
+    height: 124px;
+
+    margin: 5px 0px 0px 13px;
+  }
+
+  .mainwelcometitle {
+    /* position: absolute; */
+    width: 258px;
+    height: 80px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 10px;
+
+  }
+
+  .welcomesecondtext {
+    width: 278px;
+    height: 19px;
+    font-family: Roboto;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2px;
+
+    margin: 6px 0px 0px 2px;
+
+  }
+
+  .welcomebutton {
+    display: none;
+  }
+
+  .monnalizabox {
+    width: 380px;
+    height: 345px;
+    align-items: end;
+    z-index: 1;
+    margin: 0px 0px 20px 15px;
+  }
+
+  .fotomonnaliza {
+    width: 380px;
+    height: 285px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .welcomesliderbox {
+    background-color: rgb(3, 3, 3, 0.5);
+    position: absolute;
+    width: 330px;
+    height: 40px;
+    padding: 0px 0px 0px 25px;
+    margin: 306px 0px 0px 0px;
+  }
+
+  .numsbox {
+    width: 50px;
+    height: 40px;
+    margin: 0px 25px 0px 0px;
+  }
+
+  .leftnum,
+  .centerborder,
+  .rightnum {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    text-transform: uppercase;
+  }
+
+  .squaresbox {
+    width: 75px;
+    height: 7px;
+    margin: 0px 25px 0px 0px;
+  }
+
+
+  .square {
+    width: 7px;
+    height: 7px;
+  }
+
+  .arrowsbox {
+    width: 55px;
+    height: 8px;
+    margin: -5px 10px 0px 0px;
+  }
+
+  .arrow {
+    background-image: url(../assets/arrow420.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 8px;
+  }
+
 }
