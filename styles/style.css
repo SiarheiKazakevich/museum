@@ -2665,6 +2665,60 @@ a {
     margin: 0px 0px 0px 0px;
   }
 
+  /*---------footer section-----------*/
+  .page-footer {
+    width: 100%;
+    max-width: 1024px;
+    height: 368px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footercontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 368px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footernavigationbox {
+    width: 100%;
+    max-width: 984px;
+    height: 246px;
+  }
+
+  .footerwraperlogobox {
+    width: 552px;
+    height: 128px;
+    margin: 0px 0px 60px 7px;
+  }
+
+  .footerlogobox {
+    width: 200px;
+    height: 50px;
+  }
+
+  .footernavigationssections {
+    width: 313px;
+    height: 128px;
+  }
+
+
+
+
+
+
+  .footerwrapersocialmediabox {
+    width: 340px;
+    height: 48px;
+    margin: 0px -8px 48px 0px;
+  }
+
+  .footerrsschoolbox {
+    width: 100%;
+    max-width: 984px;
+    height: 125px;
+    margin: 0px 0px 0px 15px;
+  }
 }
 
 
