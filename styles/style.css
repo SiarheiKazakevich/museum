@@ -2742,7 +2742,67 @@ a {
 
 
 /* ↓↓↓ адаптация для 768px ↓↓↓ */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .wraperheader {
+    width: 100%;
+    max-width: 768px;
+    height: 110px;
+  }
+
+  .page-header {
+    width: 100%;
+    max-width: 728px;
+    height: 110px;
+  }
+
+  .logobox {
+    height: 41px;
+  }
+
+  .logo {
+    margin: 2px 0px 0px 0px
+  }
+
+  .textlogo {
+    margin: 12px 0px 0px 0px
+  }
+}
 
 /* ↓↓↓ адаптация для 420px ↓↓↓ */
-@media screen and (max-width: 420px) {}
+@media screen and (max-width: 420px) {
+  .wraperheader {
+    width: 100%;
+    max-width: 420px;
+    height: 90px;
+  }
+
+  .page-header {
+    width: 100%;
+    max-width: 380px;
+    height: 90px;
+  }
+
+  .logobox {
+    width: 137px;
+    height: 20px;
+    margin: 0px 0px 0px 0px
+  }
+
+  .logo {
+    width: 29px;
+    height: 16px;
+    margin: 0px 0px 5px 2px
+  }
+
+  .textlogo {
+    width: 82px;
+    height: 18px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 5px 0px 0px 0px
+  }
+}
