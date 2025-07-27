@@ -2015,8 +2015,8 @@ a {
     width: 100%;
     max-width: 1024px;
     height: 1433px;
-    margin: 0px 0px 0px 13px;
-    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 60px 0px 0px 13px;
   }
 
   .visitingtitlebox {
@@ -2198,7 +2198,7 @@ a {
   /*---------video section-----------*/
   .video {
     width: 100%;
-    min-width: 1024px;
+    max-width: 1024px;
     height: 1001px;
   }
 
@@ -2302,9 +2302,423 @@ a {
     height: 170px;
   }
 
+  /*---------gallery section-----------*/
+  .gallery {
+    width: 100%;
+    max-width: 1024px;
+    height: 1460px;
+  }
+
+  .gallerycontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 1460px;
+    margin: 0px 0px 0px 14px;
+  }
+
+  .gallerytitle {
+    width: 335px;
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 60px 0px 0px 0px;
+  }
+
+  .gallerygradientbox {
+    position: absolute;
+    top: 5397px;
+    left: -1px;
+    width: 100%;
+    max-width: 1024px;
+    height: 360px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    border: none;
+  }
+
+  .gallerywraperfotobox {
+    width: 100%;
+    max-width: 1024px;
+    height: 1265px;
+  }
+
+  .galleryleftwrapervideos {
+    width: 304px;
+    height: 1215px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .gallerycentrwrapervideos {
+    width: 304px;
+    height: 1265px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .galleryrightwrapervideos {
+    width: 304px;
+    height: 1215px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .galleryvideo {
+    width: 304px;
+  }
+
+  .leftvideo1 {
+    height: 304px;
+    background-image: url(../assets/left11024.png);
+  }
+
+  .leftvideo2 {
+    height: 380px;
+    background-image: url(../assets/left21024.png);
+  }
+
+  .leftvideo3 {
+    height: 304px;
+    background-image: url(../assets/left31024.png);
+  }
+
+  .leftvideo4 {
+    height: 159px;
+    background-image: url(../assets/left41024.png);
+  }
+
+  .centervideo1 {
+    height: 380px;
+    background-image: url(../assets/center11024.png);
+  }
+
+  .centervideo2 {
+    height: 380px;
+    background-image: url(../assets/center21024.png);
+  }
+
+  .centervideo3 {
+    height: 228px;
+    background-image: url(../assets/center31024.png);
+  }
+
+  .centervideo4 {
+    height: 207px;
+    background-image: url(../assets/center41024.png);
+  }
+
+  .rightvideo1 {
+    height: 228px;
+    background-image: url(../assets/right11024.png);
+  }
+
+  .rightvideo2 {
+    height: 380px;
+    background-image: url(../assets/right21024.png);
+  }
+
+  .rightvideo3 {
+    height: 304px;
+    background-image: url(../assets/right31024.png);
+  }
+
+  .rightvideo4 {
+    height: 233px;
+    background-image: url(../assets/right41024.png);
+  }
+
+  /*---------gallery section-----------*/
+  .tickets {
+    width: 100%;
+    max-width: 1024px;
+    height: 718px;
+  }
+
+  .ticketscontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 598px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .ticketstitlebox {
+    width: 100%;
+    max-width: 984px;
+    height: 98px;
+  }
+
+  .ticketstitle {
+    width: 472px;
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 10px;
+
+  }
+
+  .ticketsline {
+    width: 100%;
+    max-width: 984px;
+    height: 3px;
+  }
+
+  .ticketpaybox {
+    width: 100%;
+    max-width: 984px;
+    height: 440px;
+    justify-content: start;
+  }
+
+  .ticketsimagebox {
+    background-image: url(../assets/imagetickets1024.png);
+    width: 700px;
+    height: 440px;
+    margin: 0px 0px 0px 10px;
+  }
+
+  .ticketslittlepaybox {
+    width: 175px;
+    height: 440px;
+  }
+
+  .ticketstypebox {
+    display: none;
+  }
+
+  .amoundandtotalbox {
+    width: 175px;
+    height: 440px;
+    margin: 0px 0px 0px 80px;
+  }
+
+  .amoundbox {
+    width: 175px;
+    height: 321px;
+    align-items: start;
+  }
+
+  .amoundlittlebox {
+    width: 175px;
+    height: 90px;
+  }
+
+  .amoundlittletext {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 7px 0px 0px -2px;
+
+  }
+
+  .amoundplus {
+    margin: 0px 5px 0px 0px;
+  }
+
+  .amoundcountbox {
+    width: 175px;
+    height: 50px;
+  }
+
+  .totalbox {
+    width: 175px;
+    height: 156px;
+  }
+
+  .totalprice {
+    width: 175px;
+    height: 33px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 1.65px;
+    padding: 0px 10px 0px 0px;
+  }
+
+  .spacetotalprice1024 {
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+  }
+
+  .amoundtitle {
+    width: 103px;
+    height: 33px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 2px 0px 0px -2px;
+  }
+
+  .amoundcontentbox {
+    width: 175px;
+    height: 205px;
+    margin: 0px 0px 34px 0px;
+  }
+
+  /*---------paralax section-----------*/
+  .paralax {
+    width: 100%;
+    max-width: 1024px;
+    height: 400px;
+  }
+
+  /*---------contacts section-----------*/
+  .contacts {
+    width: 100%;
+    max-width: 1024px;
+    height: 734px;
+  }
+
+  .contactscontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 614px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .contactstitlebox {
+    width: 100%;
+    max-width: 984px;
+    height: 98px;
+  }
+
+  .contactstitle {
+    width: 472px;
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 10px;
+
+  }
+
+  .contactsline {
+    width: 100%;
+    max-width: 984px;
+    height: 3px;
+  }
+
+  .contactswrapermapbox {
+    width: 100%;
+    max-width: 984px;
+    height: 614px;
+    margin: 60px 0px 0px 15px;
+  }
+
+  .contactsadressbox {
+    width: 282px;
+    height: 244px;
+  }
+
+  .contactsadressbox {
+    width: 274px;
+    height: 190px;
+  }
+
+  .adresstitle {
+    width: 185px;
+    height: 56px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    line-height: 28px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .adrestextbox {
+    width: 274px;
+    height: 99px;
+
+
+  }
+
+  .adresstextsize {
+    width: 274px;
+    height: 23px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+  }
+
+  .contactsmapphoto {
+    background-image: url(../assets/contactsimage1024.png);
+    width: 694px;
+    height: 454px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  /*---------footer section-----------*/
+  .page-footer {
+    width: 100%;
+    max-width: 1024px;
+    height: 368px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footercontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 368px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footernavigationbox {
+    width: 100%;
+    max-width: 984px;
+    height: 246px;
+  }
+
+  .footerwraperlogobox {
+    width: 552px;
+    height: 128px;
+    margin: 0px 0px 60px 7px;
+  }
+
+  .footerlogobox {
+    width: 200px;
+    height: 50px;
+  }
+
+  .footernavigationssections {
+    width: 313px;
+    height: 128px;
+  }
 
 
 
+
+
+
+  .footerwrapersocialmediabox {
+    width: 340px;
+    height: 48px;
+    margin: 0px -8px 48px 0px;
+  }
+
+  .footerrsschoolbox {
+    width: 100%;
+    max-width: 984px;
+    height: 125px;
+    margin: 0px 0px 0px 15px;
+  }
 }
 
 
