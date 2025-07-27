@@ -2572,6 +2572,99 @@ a {
     height: 400px;
   }
 
+  /*---------contacts section-----------*/
+  .contacts {
+    width: 100%;
+    max-width: 1024px;
+    height: 734px;
+  }
+
+  .contactscontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 614px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .contactstitlebox {
+    width: 100%;
+    max-width: 984px;
+    height: 98px;
+  }
+
+  .contactstitle {
+    width: 472px;
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 10px;
+
+  }
+
+  .contactsline {
+    width: 100%;
+    max-width: 984px;
+    height: 3px;
+  }
+
+  .contactswrapermapbox {
+    width: 100%;
+    max-width: 984px;
+    height: 614px;
+    margin: 60px 0px 0px 15px;
+  }
+
+  .contactsadressbox {
+    width: 282px;
+    height: 244px;
+  }
+
+  .contactsadressbox {
+    width: 274px;
+    height: 190px;
+  }
+
+  .adresstitle {
+    width: 185px;
+    height: 56px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    line-height: 28px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .adrestextbox {
+    width: 274px;
+    height: 99px;
+
+
+  }
+
+  .adresstextsize {
+    width: 274px;
+    height: 23px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+  }
+
+  .contactsmapphoto {
+    background-image: url(../assets/contactsimage1024.png);
+    width: 694px;
+    height: 454px;
+    margin: 0px 0px 0px 0px;
+  }
+
 }
 
 
