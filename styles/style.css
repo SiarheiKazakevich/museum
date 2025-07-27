@@ -2564,6 +2564,14 @@ a {
     height: 205px;
     margin: 0px 0px 34px 0px;
   }
+
+  /*---------paralax section-----------*/
+  .paralax {
+    width: 100%;
+    max-width: 1024px;
+    height: 400px;
+  }
+
 }
 
 
