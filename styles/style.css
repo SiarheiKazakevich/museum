@@ -108,6 +108,19 @@ a {
 
 }
 
+.burgermenu {
+  display: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 3px;
+}
+
+.linesizeburgermenu {
+  width: 32px;
+  height: 2px;
+  border: solid 1px #FFFFFF;
+  margin: 0px 0px 0px 0px;
+}
+
 .navbox {
   width: 100%;
   max-width: 775px;
@@ -396,12 +409,23 @@ a {
 .arrow {
   width: 30px;
   height: 8px;
-  /*background: rgba(0, 0, 0, 0.5);*/
+  /*background: rgba(0, 0, 0, 0.5);
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   margin: 0px 0px 0px 0px;
+}
+
+.leftarrow {
+  width: 30px;
+  height: 8px;
+}
+
+.rightarrow {
+  width: 30px;
+  height: 8px;
+  transform: rotate(180deg);
 }
 
 /*---------visiting section-----------*/
@@ -1800,3 +1824,511 @@ a {
   height: 22px;
   margin: 0px 0px 0px 33px;
 }
+
+/* ↓↓↓ адаптация для 1024px ↓↓↓ ---------------------*/
+@media screen and (max-width: 1024px) {
+  .mainwraper {
+    width: 100%;
+    max-width: 1024px;
+  }
+
+  .wraperheader {
+    background-color: #030303;
+    width: 100%;
+    max-width: 1024px;
+    height: 130px;
+  }
+
+  .page-header {
+    width: 100%;
+    max-width: 984px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid white;*/
+    margin: 0px 0px 0px 13px;
+  }
+
+  .navbox {
+    display: none;
+  }
+
+  .burgermenu {
+    display: block;
+    width: 32px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .page-main {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  /*---------welcome section-----------*/
+
+
+  .welcome {
+    width: 100%;
+    max-width: 1024px;
+    height: 585px;
+    margin: 0px 0px 0px 13px;
+  }
+
+  .mainwelcomecontent {
+    max-width: 100%;
+    width: 984px;
+    height: 525px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .textbox {
+    position: relative;
+    width: 396px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin: 50px 0px 0px 0px;
+    z-index: 3;
+  }
+
+  .mainwelcometitle {
+    /*position: absolute;*/
+    width: 398px;
+    height: 180px;
+    color: rgb(255, 255, 255);
+    font-family: Forum;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .welcomesecondtext {
+    width: 445px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: -30px 0px 0px 2px;
+  }
+
+  .welcomebutton {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgb(113, 7, 7);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 2px;
+    padding: 0px 0px 0px 4px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .monnalizabox {
+    position: relative;
+    width: 700px;
+    height: 585px;
+
+    /*  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row-reverse;*/
+    align-items: end;
+    z-index: 1;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .fotomonnaliza {
+    background:
+      linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 16.194%, rgba(0, 0, 0, 0) 30.729%),
+      url('../assets/monnaliza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 525px;
+    margin: 0px 110px 0px 0px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .numsbox {
+    width: 71px;
+    margin: 0px 45px 0px 113px;
+  }
+
+  .squaresbox {
+    width: 160px;
+    margin: 0px 45px 0px 0px;
+  }
+
+  .square {
+    width: 12px;
+    height: 12px;
+    background: rgb(255, 255, 255);
+  }
+
+  .welcomesliderbox {
+    background-color: rgb(3, 3, 3, 0.5);
+    position: absolute;
+    width: 700px;
+    height: 120px;
+    z-index: 2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 465px 0px 0px 0px;
+  }
+
+  .arrow {
+    background-image: url(../assets/arrow.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 8px;
+
+  }
+
+  /*---------visiting section-----------*/
+  .visiting {
+    width: 100%;
+    max-width: 1024px;
+    height: 1433px;
+    margin: 0px 0px 0px 13px;
+    padding: 60px 0px 0px 0px;
+  }
+
+  .visitingtitlebox {
+    width: 984px;
+    height: 98px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .visitingmaintitle {
+    display: block;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: start;
+    margin: 0px 0px 4px 0px;
+    padding: 0px 0px 0px 0px;
+
+  }
+
+  .visitingbiglain {
+    width: 984px;
+  }
+
+  .visitingcartsbox {
+    width: 984px;
+    height: 1313px;
+    display: grid;
+    grid-template-columns: repeat(2, 330px);
+    grid-template-rows: repeat(3, 345px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .cartssize {
+    width: 330px;
+    height: 345px;
+  }
+
+  .visitingcartsfotobox {
+    width: 330px;
+    height: 215px;
+  }
+
+  .visitingtextbox {
+    width: 330px;
+    height: 105px;
+    margin: 0px 0px 0px 2px;
+    padding: 2px 0px 0px 0px;
+  }
+
+  .cartssize:hover .visitingcartline {
+    width: 329px;
+  }
+
+  .visitingfirstlitletext {
+    width: fit-content;
+    height: 23px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 4px 0px 0px 0px;
+  }
+
+  .visitingsecondlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .visitingcartstitle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    height: 31px;
+
+  }
+
+  .visitingcartline {
+    width: 150px;
+  }
+
+  /*---------explore section-----------*/
+  .explore {
+    width: 100%;
+    max-width: 1024px;
+    height: 1149px;
+    margin: 0px 0px 0px 13px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .explorecontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 1029px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explorewrapertextbox {
+    width: 100%;
+    max-width: 984px;
+    height: 167px;
+    align-items: start;
+  }
+
+  .exploretitlebox {
+    width: 100%;
+    max-width: 984px;
+    height: 98px;
+    align-items: start;
+    margin: 0px 0px 60px 0px;
+  }
+
+  .exploretitle {
+    width: 440px;
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0px 0px 20px 0px;
+
+  }
+
+  .exploreline {
+    width: 100%;
+    max-width: 984;
+  }
+
+  .explorelittletextbox {
+    width: 100%;
+    max-width: 984px;
+    height: 109px;
+    margin: 0px 0px 0px 2px;
+  }
+
+  .explorelittletext {
+    width: 100%;
+    max-width: 984px;
+    height: auto;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    margin: 1.5px 0px 0px 0px;
+
+  }
+
+  .explorelittletextnone {
+    display: none;
+  }
+
+  .explorewraperfotobox {
+    width: 720px;
+    height: 700px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  /*---------video section-----------*/
+  .video {
+    width: 100%;
+    min-width: 1024px;
+    height: 1001px;
+  }
+
+  .videowrapercontent {
+    width: 100%;
+    max-width: 984px;
+    height: 881px;
+    justify-content: start;
+  }
+
+  .videowrapertitlebox {
+    width: 100%;
+    max-width: 984px;
+    height: 75px;
+  }
+
+  .videotitle {
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 8px;
+
+  }
+
+  .videolittletext {
+    display: none;
+  }
+
+  .videowrapervideobox {
+    width: 100%;
+    max-width: 984px;
+    height: 766px;
+    margin: 40px 0px 0px 13px;
+    justify-content: start;
+  }
+
+  .videocinemabox {
+    width: 100%;
+    max-width: 984px;
+    height: 504px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .videofotocinema {
+
+    background-image: url(../assets/luvre1024.png);
+    width: 100%;
+    max-width: 984px;
+    height: 444px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videofotocontrols {
+    background-image: url(../assets/videocontrol1024.png);
+    width: 100%;
+    max-width: 984px;
+    height: 60px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videosliderbox {
+    width: 100%;
+    max-width: 984px;
+    height: 60px;
+  }
+
+  .wraperslidersvideos {
+    width: 100%;
+    max-width: 984px;
+    height: 170px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .slidersvideosboxcontent {
+    width: 255px;
+    height: 99px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .slidersvideotitlebox {
+    width: 255px;
+    height: 40px;
+  }
+
+  .slidersvideotitle {
+    width: 183px;
+    height: 28px;
+    margin: -10px 0px 0px -10px;
+  }
+
+  .spandisplaynone {
+    display: none;
+  }
+
+  .slidersvideosbox {
+    width: 300px;
+    height: 170px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ↓↓↓ адаптация для 768px ↓↓↓ */
+@media screen and (max-width: 768px) {}
+
+/* ↓↓↓ адаптация для 420px ↓↓↓ */
+@media screen and (max-width: 420px) {}
