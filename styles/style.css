@@ -2015,8 +2015,8 @@ a {
     width: 100%;
     max-width: 1024px;
     height: 1433px;
-    margin: 0px 0px 0px 13px;
-    padding: 60px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 60px 0px 0px 13px;
   }
 
   .visitingtitlebox {
@@ -2198,7 +2198,7 @@ a {
   /*---------video section-----------*/
   .video {
     width: 100%;
-    min-width: 1024px;
+    max-width: 1024px;
     height: 1001px;
   }
 
@@ -2302,9 +2302,131 @@ a {
     height: 170px;
   }
 
+  /*---------gallery section-----------*/
+  .gallery {
+    width: 100%;
+    max-width: 1024px;
+    height: 1460px;
+  }
 
+  .gallerycontentbox {
+    width: 100%;
+    max-width: 984px;
+    height: 1460px;
+    margin: 0px 0px 0px 14px;
+  }
 
+  .gallerytitle {
+    width: 335px;
+    height: 75px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 60px 0px 0px 0px;
+  }
 
+  .gallerygradientbox {
+    position: absolute;
+    top: 5397px;
+    left: -1px;
+    width: 100%;
+    max-width: 1024px;
+    height: 360px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    border: none;
+  }
+
+  .gallerywraperfotobox {
+    width: 100%;
+    max-width: 1024px;
+    height: 1265px;
+  }
+
+  .galleryleftwrapervideos {
+    width: 304px;
+    height: 1215px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .gallerycentrwrapervideos {
+    width: 304px;
+    height: 1265px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .galleryrightwrapervideos {
+    width: 304px;
+    height: 1215px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .galleryvideo {
+    width: 304px;
+  }
+
+  .leftvideo1 {
+    height: 304px;
+    background-image: url(../assets/left11024.png);
+  }
+
+  .leftvideo2 {
+    height: 380px;
+    background-image: url(../assets/left21024.png);
+  }
+
+  .leftvideo3 {
+    height: 304px;
+    background-image: url(../assets/left31024.png);
+  }
+
+  .leftvideo4 {
+    height: 159px;
+    background-image: url(../assets/left41024.png);
+  }
+
+  .centervideo1 {
+    height: 380px;
+    background-image: url(../assets/center11024.png);
+  }
+
+  .centervideo2 {
+    height: 380px;
+    background-image: url(../assets/center21024.png);
+  }
+
+  .centervideo3 {
+    height: 228px;
+    background-image: url(../assets/center31024.png);
+  }
+
+  .centervideo4 {
+    height: 207px;
+    background-image: url(../assets/center41024.png);
+  }
+
+  .rightvideo1 {
+    height: 228px;
+    background-image: url(../assets/right11024.png);
+  }
+
+  .rightvideo2 {
+    height: 380px;
+    background-image: url(../assets/right21024.png);
+  }
+
+  .rightvideo3 {
+    height: 304px;
+    background-image: url(../assets/right31024.png);
+  }
+
+  .rightvideo4 {
+    height: 233px;
+    background-image: url(../assets/right41024.png);
+  }
 }
 
 
