@@ -3017,6 +3017,126 @@ a {
     height: 705px;
     background-image: url(../assets/exploresliderfoto768.png);
   }
+
+  /*----------video section 768-----------*/
+  .video {
+    width: 100%;
+    max-width: 768px;
+    height: 837px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videowrapercontent {
+    max-width: 100%;
+    width: 728px;
+    height: 757px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videowrapertitlebox {
+    position: relative;
+    width: 728px;
+    height: 80px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videotitle {
+    width: 367px;
+    height: 58px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px 0px 3px 0px;
+    margin: 0px 0px 22px 9px;
+  }
+
+
+  .videolittletext {
+    display: none;
+  }
+
+  .videowrapervideobox {
+    position: relative;
+    width: 728px;
+    height: 677px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videocinemabox {
+    width: 100%;
+    max-width: 728px;
+    height: 386px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .videofotocinema {
+    background-image: url(../assets/luvre1024.png);
+    width: 100%;
+    max-width: 728px;
+    height: 329px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videofotocontrols {
+    background-image: url(../assets/videocontrol768.png);
+    width: 728px;
+    height: 53px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videosliderbox {
+    width: 100%;
+    max-width: 728px;
+    height: 231px;
+    margin: 20px 0px 0px 15px;
+  }
+
+  .wraperslidersvideos {
+    width: 100%;
+    max-width: 728px;
+    height: 199px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .slidersvideosbox {
+    width: 354px;
+    height: 199px;
+  }
+
+  .slidersvideosboxcontent {
+    width: 309px;
+    height: 113px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .slidersvideotitlebox {
+    width: 309px;
+    height: 40px;
+  }
+
+  .slidersvideotitle {
+    margin: -10px 0px 0px -60px;
+  }
+
+  .slidersvideosboxn3 {
+    display: none;
+  }
+
+  .wrapersliderscontrolsbuttons {
+    width: 190px;
+  }
+
+  .sliderscontrolsbuttonsize {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 /* ↓↓↓ адаптация для 420px ↓↓↓ */
@@ -3368,4 +3488,151 @@ a {
     margin: 0px 0px 0px 218px;
   }
 
+  /*----------video section 420-----------*/
+  .video {
+    width: 100%;
+    max-width: 420px;
+    height: 551px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videowrapercontent {
+    max-width: 100%;
+    width: 380px;
+    height: 475px;
+    margin: 20px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videowrapertitlebox {
+    position: relative;
+    width: 380px;
+    height: 40px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videotitle {
+    width: 293px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    padding: 0px 0px 3px 0px;
+    margin: 0px 0px 22px 9px;
+  }
+
+
+  .videolittletext {
+    display: none;
+  }
+
+  .videowrapervideobox {
+    position: relative;
+    width: 380px;
+    height: 342px;
+
+    margin: 8px 0px 0px 0px;
+  }
+
+  .videocinemabox {
+    width: 100%;
+    max-width: 380px;
+    height: 226px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .videofotocinema {
+    background-image: url(../assets/luvre1024.png);
+    width: 100%;
+    max-width: 380px;
+    height: 172px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videofotocontrols {
+    background-image: url(../assets/controlsfoto420.png);
+    width: 380px;
+    height: 55px;
+    margin: -1px 0px 0px 0px;
+  }
+
+  .videosliderbox {
+    width: 100%;
+    max-width: 380px;
+    height: 149px;
+    margin: 40px 0px 0px 15px;
+  }
+
+  .wraperslidersvideos {
+    width: 100%;
+    max-width: 380px;
+    height: 101px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .slidersvideosbox {
+    width: 180px;
+    height: 101px;
+  }
+
+  .slidersvideosboxcontent {
+    position: relative;
+    width: 158px;
+    height: 65px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .slidersvideotitlebox {
+    width: 149px;
+    height: 40px;
+    margin: 0px 0px 0px -7px;
+  }
+
+  .slidersvideotitle {
+    width: 99px;
+    height: 39px;
+    margin: 0px 0px 0px -60px;
+  }
+
+  .less420 {
+    display: none;
+  }
+
+  .sliderplaybuttonbox {
+    position: absolute;
+    width: 68px;
+    height: 48px;
+    top: 16px;
+    left: 22px;
+  }
+
+  .slidersvideosboxn3 {
+    display: none;
+  }
+
+  .slidersvideo3points {
+    display: none;
+  }
+
+  .wrapersliderscontrolsbuttons {
+    width: 174px;
+    height: 8px;
+  }
+
+  .leftliderscontrolsbuttonsize,
+  .rightliderscontrolsbuttonsize {
+    width: 7px;
+    height: 8px;
+  }
+
+  .sliderscontrolsbuttonsize {
+    width: 8px;
+    height: 8px;
+  }
 }
