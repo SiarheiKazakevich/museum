@@ -470,7 +470,7 @@ a {
 .visitingbiglain {
   width: 1440px;
   height: 3px;
-  border: solid 1.5px #710707;
+  border: solid 2.0px #710707;
 }
 
 .visitingcartsbox {
@@ -561,7 +561,7 @@ a {
 .visitingcartline {
   width: 300px;
   height: 2px;
-  border: solid 1px #710707;
+  border: solid 1.5px #710707;
   transition: width 0.4s ease;
 }
 
@@ -2769,7 +2769,7 @@ a {
     margin: 0px 0px 0px 0px;
   }
 
-  /*----------welcome section-----------*/
+  /*----------welcome section 768-----------*/
   .welcome {
     width: 100%;
     max-width: 768px;
@@ -2844,6 +2844,105 @@ a {
     height: 40px;
     padding: 0px 0px 0px 30px;
     margin: 576px 0px 0px 0px;
+  }
+
+  /*----------visiting section 768-----------*/
+  .visiting {
+    width: 100%;
+    max-width: 768px;
+    height: 1226px;
+    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 13px;
+    justify-content: start;
+  }
+
+  .visitingtitlebox {
+    max-width: 100%;
+    width: 728px;
+    height: 83px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+
+  }
+
+  .visitingcartsbox {
+    max-width: 100%;
+    width: 728px;
+    height: 1063px;
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    grid-template-rows: repeat(3, 301px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .visitingmaintitle {
+    width: 306px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .visitingbiglain {
+    width: 728px;
+  }
+
+  .cartssize {
+    width: 280px;
+    height: 301px;
+  }
+
+  .visitingcartsfotobox {
+    width: 280px;
+    height: 180px;
+  }
+
+  .visitingtextbox {
+    width: 280px;
+    height: 96px;
+    margin: 0px 0px 0px 2px;
+    padding: 2px 0px 0px 0px;
+  }
+
+  .visitingcartstitle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    height: 24px;
+  }
+
+  .visitingfirstlitletext {
+    width: fit-content;
+    height: 21px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 4px 0px 0px 0px;
+  }
+
+  .visitingsecondlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -3016,6 +3115,107 @@ a {
     background-repeat: no-repeat;
     width: 20px;
     height: 8px;
+  }
+
+  /*----------visiting section 420-----------*/
+  .visiting {
+    width: 100%;
+    max-width: 420px;
+    height: 2153px;
+    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 13px;
+    justify-content: start;
+  }
+
+  .visitingtitlebox {
+    max-width: 100%;
+    width: 380px;
+    height: 63px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+
+  }
+
+  .visitingcartsbox {
+    max-width: 100%;
+    width: 380px;
+    height: 2050px;
+    display: grid;
+    grid-template-columns: repeat(1, 280px);
+    grid-template-rows: repeat(6, 295px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .visitingmaintitle {
+    width: 306px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+  }
+
+  .visitingbiglain {
+    width: 380px;
+  }
+
+  .cartssize {
+    width: 280px;
+    height: 295px;
+  }
+
+  .visitingcartsfotobox {
+    width: 280px;
+    height: 180px;
+  }
+
+  .visitingtextbox {
+    width: 280px;
+    height: 90px;
+    margin: 0px 0px 0px 2px;
+    padding: 2px 0px 0px 0px;
+  }
+
+  .visitingcartstitle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    height: 19px;
+  }
+
+  .visitingfirstlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin: 4px 0px 0px 0px;
+  }
+
+  .visitingsecondlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
   }
 
 }
