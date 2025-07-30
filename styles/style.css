@@ -3344,6 +3344,112 @@ a {
     height: 115px;
   }
 
+  /*----------paralax section 768-----------*/
+  .paralax {
+    background-image: url(../assets/parallax768.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 768px;
+    height: 300px;
+  }
+
+  /*----------contacts section 768-----------*/
+  .contacts {
+    width: 100%;
+    max-width: 768px;
+    height: 925px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .contactscontentbox {
+    max-width: 100%;
+    width: 728px;
+    height: 845px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .contactstitlebox {
+    position: relative;
+    width: 728px;
+    height: 83px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .contactstitle {
+    width: 367px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .contactsline {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .contactswrapermapbox {
+    width: 100%;
+    max-width: 728px;
+    height: 722px;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px 0px 0px 10px;
+  }
+
+  .contactsadressbox {
+    width: 234px;
+    height: 179px;
+  }
+
+  .adresstitle {
+    width: 155px;
+    height: 46px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+    margin: 1px 0px 0px 0px;
+  }
+
+  .adrestextbox {
+    width: 234px;
+    height: 93px;
+  }
+
+  .adresstextsize {
+    width: 234px;
+    height: 21px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px -3px;
+
+  }
+
+  .contactsmapphoto {
+    background-image: url(../assets/contactsimage768.png);
+    width: 728px;
+    height: 476px;
+    margin: 40px 0px 0px 0px;
+  }
+
 }
 
 
@@ -4101,5 +4207,116 @@ a {
   .totalbutton {
     font-size: 16px;
   }
+
+  /*----------paralax section 768-----------*/
+  .paralax {
+    background-image: url(../assets/parallax420.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+  }
+
+  /*----------contacts section 768-----------*/
+  .contacts {
+    width: 100%;
+    max-width: 420px;
+    height: 636px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .contactscontentbox {
+    max-width: 100%;
+    width: 380px;
+    height: 556px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .contactstitlebox {
+    position: relative;
+    width: 380px;
+    height: 63px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .contactstitle {
+    width: 367px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .contactsline {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .contactswrapermapbox {
+    width: 100%;
+    max-width: 380px;
+    height: 453px;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px 0px 0px 8px;
+  }
+
+  .contactsadressbox {
+    width: 208px;
+    height: 165px;
+  }
+
+  .adresstitle {
+    width: 135px;
+    height: 38px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .adrestextbox {
+    width: 208px;
+    height: 87px;
+    margin: 0px 0px 0px 3px;
+  }
+
+  .adresstextsize {
+    width: 208px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin: 0px 0px 0px -3px;
+
+  }
+
+  .contactsmapphoto {
+    background-image: url(../assets/contactsimage420.png);
+    width: 380px;
+    height: 248px;
+    margin: 40px 0px 0px 0px;
+  }
+
 
 }
