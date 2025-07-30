@@ -470,7 +470,7 @@ a {
 .visitingbiglain {
   width: 1440px;
   height: 3px;
-  border: solid 1.5px #710707;
+  border: solid 2.0px #710707;
 }
 
 .visitingcartsbox {
@@ -561,7 +561,7 @@ a {
 .visitingcartline {
   width: 300px;
   height: 2px;
-  border: solid 1px #710707;
+  border: solid 1.5px #710707;
   transition: width 0.4s ease;
 }
 
@@ -2769,7 +2769,7 @@ a {
     margin: 0px 0px 0px 0px;
   }
 
-  /*----------welcome section-----------*/
+  /*----------welcome section 768-----------*/
   .welcome {
     width: 100%;
     max-width: 768px;
@@ -2845,7 +2845,689 @@ a {
     padding: 0px 0px 0px 30px;
     margin: 576px 0px 0px 0px;
   }
+
+  /*----------visiting section 768-----------*/
+  .visiting {
+    width: 100%;
+    max-width: 768px;
+    height: 1226px;
+    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 13px;
+    justify-content: start;
+  }
+
+  .visitingtitlebox {
+    max-width: 100%;
+    width: 728px;
+    height: 83px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+
+  }
+
+  .visitingcartsbox {
+    max-width: 100%;
+    width: 728px;
+    height: 1063px;
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    grid-template-rows: repeat(3, 301px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .visitingmaintitle {
+    width: 306px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .visitingbiglain {
+    width: 728px;
+  }
+
+  .cartssize {
+    width: 280px;
+    height: 301px;
+  }
+
+  .visitingcartsfotobox {
+    width: 280px;
+    height: 180px;
+  }
+
+  .visitingtextbox {
+    width: 280px;
+    height: 96px;
+    margin: 0px 0px 0px 2px;
+    padding: 2px 0px 0px 0px;
+  }
+
+  .visitingcartstitle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    height: 24px;
+  }
+
+  .visitingfirstlitletext {
+    width: fit-content;
+    height: 21px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 4px 0px 0px 0px;
+  }
+
+  .visitingsecondlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  /*----------explore section 768-----------*/
+  .explore {
+    width: 100%;
+    max-width: 768px;
+    height: 908px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .explorecontentbox {
+    max-width: 100%;
+    width: 768px;
+    height: 828px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explorewrapertextbox {
+    position: relative;
+    width: 728px;
+    height: 83px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .exploretitlebox {
+    width: 100%;
+    max-width: 728px;
+    height: 83px;
+    align-items: start;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .exploretitle {
+    width: 367px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .exploreline {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .explorelittletextbox {
+    display: none;
+  }
+
+  .explorewraperfotobox {
+    background-image: url(../assets/explorebigfoto768.png);
+    position: relative;
+    width: 728px;
+    height: 705px;
+
+    margin: 0px 0px 0px 18px;
+  }
+
+  .explorefotoboxn1 {
+    height: 705px;
+  }
+
+  .explorefotoboxn2 {
+    height: 705px;
+    background-image: url(../assets/exploresliderfoto768.png);
+  }
+
+  /*----------video section 768-----------*/
+  .video {
+    width: 100%;
+    max-width: 768px;
+    height: 837px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videowrapercontent {
+    max-width: 100%;
+    width: 728px;
+    height: 757px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videowrapertitlebox {
+    position: relative;
+    width: 728px;
+    height: 80px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videotitle {
+    width: 367px;
+    height: 58px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px 0px 3px 0px;
+    margin: 0px 0px 22px 9px;
+  }
+
+
+  .videolittletext {
+    display: none;
+  }
+
+  .videowrapervideobox {
+    position: relative;
+    width: 728px;
+    height: 677px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videocinemabox {
+    width: 100%;
+    max-width: 728px;
+    height: 386px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .videofotocinema {
+    background-image: url(../assets/luvre1024.png);
+    width: 100%;
+    max-width: 728px;
+    height: 329px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videofotocontrols {
+    background-image: url(../assets/videocontrol768.png);
+    width: 728px;
+    height: 53px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videosliderbox {
+    width: 100%;
+    max-width: 728px;
+    height: 231px;
+    margin: 20px 0px 0px 15px;
+  }
+
+  .wraperslidersvideos {
+    width: 100%;
+    max-width: 728px;
+    height: 199px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .slidersvideosbox {
+    width: 354px;
+    height: 199px;
+  }
+
+  .slidersvideosboxcontent {
+    width: 309px;
+    height: 113px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .slidersvideotitlebox {
+    width: 309px;
+    height: 40px;
+  }
+
+  .slidersvideotitle {
+    margin: -10px 0px 0px -60px;
+  }
+
+  .slidersvideosboxn3 {
+    display: none;
+  }
+
+  .wrapersliderscontrolsbuttons {
+    width: 190px;
+  }
+
+  .sliderscontrolsbuttonsize {
+    width: 10px;
+    height: 10px;
+  }
+
+  /*----------gallery section 768-----------*/
+  .gallery {
+    width: 100%;
+    max-width: 768px;
+    height: 1220px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .gallerycontentbox {
+    position: relative;
+    max-width: 100%;
+    width: 768px;
+    height: 1220px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .gallerytitle {
+    width: 367px;
+    height: 58px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px 0px 3px 0px;
+    margin: 40px 0px 22px 19px;
+  }
+
+  .galleryrightwrapervideos {
+    display: none;
+  }
+
+  .gallerygradientbox {
+    width: 100%;
+    max-width: 768px;
+    height: 235px;
+    top: 988px;
+  }
+
+  .gallerywraperfotobox {
+    width: 100%;
+    max-width: 768px;
+    height: 1080px;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .galleryleftwrapervideos {
+    width: 352px;
+    height: 1030px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .gallerycentrwrapervideos {
+    width: 352px;
+    height: 1080px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .galleryvideo {
+    width: 352px;
+  }
+
+  .leftvideo1 {
+    height: 351px;
+    background-image: url(../assets/left1768.png);
+  }
+
+  .leftvideo2 {
+    height: 440px;
+    background-image: url(../assets/left2768.png);
+  }
+
+  .leftvideo3 {
+    height: 191px;
+    background-image: url(../assets/left3768.png);
+  }
+
+  .leftvideo4 {
+    display: none;
+  }
+
+  .centervideo1 {
+    height: 264px;
+    background-image: url(../assets/center1768.png);
+  }
+
+  .centervideo2 {
+    height: 264px;
+    background-image: url(../assets/center2768.png);
+  }
+
+  .centervideo3 {
+    height: 440px;
+    background-image: url(../assets/center3768.png);
+  }
+
+  .centervideo4 {
+    height: 40px;
+    background-image: url(../assets/center4768.png);
+  }
+
+  /*----------tickets section 768-----------*/
+  .tickets {
+    width: 100%;
+    max-width: 768px;
+    height: 633px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .ticketscontentbox {
+    max-width: 100%;
+    width: 728px;
+    height: 553px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .ticketstitlebox {
+    position: relative;
+    width: 728px;
+    height: 83px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .ticketstitle {
+    width: 367px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .ticketsline {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .ticketpaybox {
+    width: 100%;
+    max-width: 679px;
+    height: 430px;
+    justify-content: start;
+  }
+
+  .ticketsimagebox {
+    background-image: url(../assets/imagetickets768.png);
+    width: 444px;
+    height: 340px;
+    margin: 0px 0px 0px 8px;
+  }
+
+  .ticketslittlepaybox {
+    width: 175px;
+    height: 430px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundandtotalbox {
+    width: 175px;
+    height: 430px;
+
+    margin: 0px 0px 0px 60px;
+  }
+
+  .amoundbox {
+    width: 175px;
+    height: 268px;
+    align-items: start;
+  }
+
+  .amoundcontentbox {
+    width: 175px;
+    height: 197px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundlittlebox {
+    width: 175px;
+    height: 86px;
+  }
+
+  .amoundlittletext {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 3px 0px 0px -1px;
+  }
+
+  .totalbox {
+    width: 175px;
+    height: 115px;
+  }
+
+  /*----------paralax section 768-----------*/
+  .paralax {
+    background-image: url(../assets/parallax768.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 768px;
+    height: 300px;
+  }
+
+  /*----------contacts section 768-----------*/
+  .contacts {
+    width: 100%;
+    max-width: 768px;
+    height: 925px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .contactscontentbox {
+    max-width: 100%;
+    width: 728px;
+    height: 845px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .contactstitlebox {
+    position: relative;
+    width: 728px;
+    height: 83px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .contactstitle {
+    width: 367px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .contactsline {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .contactswrapermapbox {
+    width: 100%;
+    max-width: 728px;
+    height: 722px;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px 0px 0px 10px;
+  }
+
+  .contactsadressbox {
+    width: 234px;
+    height: 179px;
+  }
+
+  .adresstitle {
+    width: 155px;
+    height: 46px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+    margin: 1px 0px 0px 0px;
+  }
+
+  .adrestextbox {
+    width: 234px;
+    height: 93px;
+  }
+
+  .adresstextsize {
+    width: 234px;
+    height: 21px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px -3px;
+
+  }
+
+  .contactsmapphoto {
+    background-image: url(../assets/contactsimage768.png);
+    width: 728px;
+    height: 476px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  /*----------footer section 768-----------*/
+  .page-footer {
+    width: 100%;
+    max-width: 768px;
+    height: 411px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footercontentbox {
+    width: 100%;
+    max-width: 728px;
+    height: 411px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footernavigationbox {
+    width: 100%;
+    max-width: 728px;
+    height: 268px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .navigationssections {
+    width: 107px;
+    height: 113px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .navigationstext {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+  }
+
+  .footerwraperlogobox {
+    width: 672px;
+    height: 121px;
+    margin: 0px 0px 37px 7px;
+    justify-content: start;
+  }
+
+  .footernavigationssections {
+    width: 363px;
+    height: 128px;
+    margin: 11px 0px 0px 98px;
+  }
+
+  .footerwrapersocialmediabox {
+    width: 340px;
+    height: 48px;
+    margin: 25px -8px 38px 305px;
+  }
+
+  .footerrsschoolbox {
+    width: 100%;
+    max-width: 728px;
+    height: 102px;
+    margin: 0px 0px 0px 15px;
+  }
+
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* ↓↓↓ адаптация для 420px ↓↓↓ */
@@ -3016,6 +3698,842 @@ a {
     background-repeat: no-repeat;
     width: 20px;
     height: 8px;
+  }
+
+  /*----------visiting section 420-----------*/
+  .visiting {
+    width: 100%;
+    max-width: 420px;
+    height: 2153px;
+    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 13px;
+    justify-content: start;
+  }
+
+  .visitingtitlebox {
+    max-width: 100%;
+    width: 380px;
+    height: 63px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+
+  }
+
+  .visitingcartsbox {
+    max-width: 100%;
+    width: 380px;
+    height: 2050px;
+    display: grid;
+    grid-template-columns: repeat(1, 280px);
+    grid-template-rows: repeat(6, 295px);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .visitingmaintitle {
+    width: 306px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+  }
+
+  .visitingbiglain {
+    width: 380px;
+  }
+
+  .cartssize {
+    width: 280px;
+    height: 295px;
+  }
+
+  .visitingcartsfotobox {
+    width: 280px;
+    height: 180px;
+  }
+
+  .visitingtextbox {
+    width: 280px;
+    height: 90px;
+    margin: 0px 0px 0px 2px;
+    padding: 2px 0px 0px 0px;
+  }
+
+  .visitingcartstitle {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    height: 19px;
+  }
+
+  .visitingfirstlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin: 4px 0px 0px 0px;
+  }
+
+  .visitingsecondlitletext {
+    width: fit-content;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  /*----------explore section 420-----------*/
+  .explore {
+    width: 100%;
+    max-width: 420px;
+    height: 551px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .explorecontentbox {
+    max-width: 100%;
+    width: 380px;
+    height: 471px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explorewrapertextbox {
+    position: relative;
+    width: 380px;
+    height: 63px;
+    border: none;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .exploretitlebox {
+    width: 100%;
+    max-width: 380px;
+    height: 63px;
+    align-items: start;
+    margin: 0px 0px 0px 0px;
+    border: none;
+  }
+
+  .exploretitle {
+    width: 367px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .exploreline {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .explorelittletextbox {
+    display: none;
+  }
+
+  .explorewraperfotobox {
+    background-image: url(../assets/explorebigfoto768.png);
+    position: relative;
+    width: 380px;
+    height: 368px;
+
+    margin: 0px 0px 0px 18px;
+  }
+
+  .explorefotoboxn1 {
+    height: 368px;
+    width: 230px;
+  }
+
+  .explorefotoboxn2 {
+    width: 20px;
+    height: 368px;
+    background-image: url(../assets/exploreslider420.png);
+    margin: 0px 0px 0px 218px;
+  }
+
+  /*----------video section 420-----------*/
+  .video {
+    width: 100%;
+    max-width: 420px;
+    height: 551px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videowrapercontent {
+    max-width: 100%;
+    width: 380px;
+    height: 475px;
+    margin: 20px 0px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videowrapertitlebox {
+    position: relative;
+    width: 380px;
+    height: 40px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videotitle {
+    width: 293px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    padding: 0px 0px 3px 0px;
+    margin: 0px 0px 22px 9px;
+  }
+
+
+  .videolittletext {
+    display: none;
+  }
+
+  .videowrapervideobox {
+    position: relative;
+    width: 380px;
+    height: 342px;
+
+    margin: 8px 0px 0px 0px;
+  }
+
+  .videocinemabox {
+    width: 100%;
+    max-width: 380px;
+    height: 226px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .videofotocinema {
+    background-image: url(../assets/luvre1024.png);
+    width: 100%;
+    max-width: 380px;
+    height: 172px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .videofotocontrols {
+    background-image: url(../assets/controlsfoto420.png);
+    width: 380px;
+    height: 55px;
+    margin: -1px 0px 0px 0px;
+  }
+
+  .videosliderbox {
+    width: 100%;
+    max-width: 380px;
+    height: 149px;
+    margin: 40px 0px 0px 15px;
+  }
+
+  .wraperslidersvideos {
+    width: 100%;
+    max-width: 380px;
+    height: 101px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .slidersvideosbox {
+    width: 180px;
+    height: 101px;
+  }
+
+  .slidersvideosboxcontent {
+    position: relative;
+    width: 158px;
+    height: 65px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .slidersvideotitlebox {
+    width: 149px;
+    height: 40px;
+    margin: 0px 0px 0px -7px;
+  }
+
+  .slidersvideotitle {
+    width: 99px;
+    height: 39px;
+    margin: 0px 0px 0px -60px;
+  }
+
+  .less420 {
+    display: none;
+  }
+
+  .sliderplaybuttonbox {
+    position: absolute;
+    width: 68px;
+    height: 48px;
+    top: 16px;
+    left: 22px;
+  }
+
+  .slidersvideosboxn3 {
+    display: none;
+  }
+
+  .slidersvideo3points {
+    display: none;
+  }
+
+  .wrapersliderscontrolsbuttons {
+    width: 174px;
+    height: 8px;
+  }
+
+  .leftliderscontrolsbuttonsize,
+  .rightliderscontrolsbuttonsize {
+    width: 7px;
+    height: 8px;
+  }
+
+  .sliderscontrolsbuttonsize {
+    width: 8px;
+    height: 8px;
+  }
+
+  /*----------gallery section 420-----------*/
+  .gallery {
+    width: 100%;
+    max-width: 420px;
+    height: 757px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .gallerycontentbox {
+    position: relative;
+    max-width: 100%;
+    width: 420px;
+    height: 757px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .gallerytitle {
+    width: 367px;
+    height: 58px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    padding: 0px 0px 3px 0px;
+    margin: 40px 0px 22px 19px;
+  }
+
+  .galleryrightwrapervideos {
+    display: none;
+  }
+
+  .gallerygradientbox {
+    width: 100%;
+    max-width: 420px;
+    height: 112px;
+    top: 645px;
+  }
+
+  .gallerywraperfotobox {
+    width: 100%;
+    max-width: 429px;
+    height: 637px;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .galleryleftwrapervideos {
+    width: 178px;
+    height: 587px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .gallerycentrwrapervideos {
+    width: 178px;
+    height: 637px;
+    margin: 0px 4px 0px 0px;
+  }
+
+  .galleryvideo {
+    width: 178px;
+  }
+
+  .leftvideo1 {
+    height: 223px;
+    background-image: url(../assets/left1420.png);
+  }
+
+  .leftvideo2 {
+    height: 223px;
+    background-image: url(../assets/left2420.png);
+  }
+
+  .leftvideo3 {
+    height: 93px;
+    background-image: url(../assets/left3420.png);
+  }
+
+  .leftvideo4 {
+    display: none;
+  }
+
+  .centervideo1 {
+    height: 223px;
+    background-image: url(../assets/center1420.png);
+  }
+
+  .centervideo2 {
+    height: 178px;
+    background-image: url(../assets/center2420.png);
+  }
+
+  .centervideo3 {
+    height: 133px;
+    background-image: url(../assets/center3420.png);
+  }
+
+  .centervideo4 {
+    height: 31px;
+    background-image: url(../assets/center4420.png);
+  }
+
+  /*----------tickets section 420-----------*/
+  .tickets {
+    width: 100%;
+    max-width: 420px;
+    height: 759px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .ticketscontentbox {
+    max-width: 100%;
+    width: 380px;
+    height: 679px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .ticketstitlebox {
+    position: relative;
+    width: 380px;
+    height: 63px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .ticketstitle {
+    width: 367px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .ticketsline {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .ticketpaybox {
+    width: 100%;
+    max-width: 380px;
+    height: 576px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ticketsimagebox {
+    background-image: url(../assets/imagetickets768.png);
+    width: 380px;
+    height: 160px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .ticketslittlepaybox {
+    width: 175px;
+    height: 376px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .amoundandtotalbox {
+    width: 175px;
+    height: 376px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundbox {
+    width: 175px;
+    height: 227px;
+    align-items: center;
+  }
+
+  .amoundtitle {
+    width: 103px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin: 2px 0px 0px -2px;
+  }
+
+  .amoundcontentbox {
+    width: 175px;
+    height: 188px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundlittlebox {
+    width: 175px;
+    height: 84px;
+  }
+
+  .amoundlittletext {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin: 2px 0px 0px -1px;
+  }
+
+  .totalbox {
+    width: 175px;
+    height: 102px;
+    align-items: center;
+  }
+
+  .totalprice {
+    width: 91px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+  }
+
+  .spacetotalprice1024 {
+    display: inline-block;
+    width: 4px;
+    height: 2px;
+  }
+
+  .totalbutton {
+    font-size: 16px;
+  }
+
+  /*----------paralax section 420-----------*/
+  .paralax {
+    background-image: url(../assets/parallax420.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 420px;
+    height: 300px;
+  }
+
+  /*----------contacts section 420-----------*/
+  .contacts {
+    width: 100%;
+    max-width: 420px;
+    height: 636px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .contactscontentbox {
+    max-width: 100%;
+    width: 380px;
+    height: 556px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .contactstitlebox {
+    position: relative;
+    width: 380px;
+    height: 63px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .contactstitle {
+    width: 367px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .contactsline {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .contactswrapermapbox {
+    width: 100%;
+    max-width: 380px;
+    height: 453px;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px 0px 0px 8px;
+  }
+
+  .contactsadressbox {
+    width: 208px;
+    height: 165px;
+  }
+
+  .adresstitle {
+    width: 135px;
+    height: 38px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .adrestextbox {
+    width: 208px;
+    height: 87px;
+    margin: 0px 0px 0px 3px;
+  }
+
+  .adresstextsize {
+    width: 208px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin: 0px 0px 0px -3px;
+
+  }
+
+  .contactsmapphoto {
+    background-image: url(../assets/contactsimage420.png);
+    width: 380px;
+    height: 248px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  /*----------footer section 420-----------*/
+  .page-footer {
+    width: 100%;
+    max-width: 420px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footercontentbox {
+    width: 100%;
+    max-width: 380px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footernavigationbox {
+    width: 100%;
+    max-width: 380px;
+    height: 296px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0px 0px 0px 0px;
+  }
+
+
+
+  .footerwraperlogobox {
+    width: 380px;
+    height: 128px;
+    margin: 0px 0px 37px 7px;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .footerlogobox {
+    width: 134px;
+    height: 20px;
+  }
+
+  .footerlogo {
+    background-image: url(../assets/footerlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 16px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footertextlogo {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .footernavigationssections {
+    width: 380px;
+    height: 68px;
+    margin: 30px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* 3 столбца */
+    grid-template-rows: repeat(2, 39px);
+    /* 2 строки */
+    gap: 10px 20px;
+    /* строки x столбцы */
+  }
+
+  .navigationssections {
+    width: 107px;
+    height: 113px;
+    margin: 0px 0px 0px 0px;
+    display: contents;
+  }
+
+  .navigationstext {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+  }
+
+  /*
+  .navigationstext:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .navigationstext:nth-of-type(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .navigationstext:nth-of-type(3) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .navigationstext:nth-of-type(4) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .navigationstext:nth-of-type(5) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .navigationstext:nth-of-type(6) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+*/
+
+  .footerwrapersocialmediabox {
+    width: 260px;
+    height: 48px;
+    margin: 0px -8px 0px 68px;
+  }
+
+  .footerrsschoolbox {
+    width: 100%;
+    max-width: 380px;
+    height: 102px;
+    margin: 0px 0px 0px 22px;
+  }
+
+  .rsscholsizes {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .rsschooltext1 {
+    display: none;
   }
 
 }
