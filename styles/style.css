@@ -3241,6 +3241,109 @@ a {
     height: 40px;
     background-image: url(../assets/center4768.png);
   }
+
+  /*----------tickets section 768-----------*/
+  .tickets {
+    width: 100%;
+    max-width: 768px;
+    height: 633px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .ticketscontentbox {
+    max-width: 100%;
+    width: 728px;
+    height: 553px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .ticketstitlebox {
+    position: relative;
+    width: 728px;
+    height: 83px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .ticketstitle {
+    width: 367px;
+    height: 60px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .ticketsline {
+    width: 100%;
+    max-width: 728px;
+  }
+
+  .ticketpaybox {
+    width: 100%;
+    max-width: 679px;
+    height: 430px;
+    justify-content: start;
+  }
+
+  .ticketsimagebox {
+    background-image: url(../assets/imagetickets768.png);
+    width: 444px;
+    height: 340px;
+    margin: 0px 0px 0px 8px;
+  }
+
+  .ticketslittlepaybox {
+    width: 175px;
+    height: 430px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundandtotalbox {
+    width: 175px;
+    height: 430px;
+
+    margin: 0px 0px 0px 60px;
+  }
+
+  .amoundbox {
+    width: 175px;
+    height: 268px;
+    align-items: start;
+  }
+
+  .amoundcontentbox {
+    width: 175px;
+    height: 197px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundlittlebox {
+    width: 175px;
+    height: 86px;
+  }
+
+  .amoundlittletext {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 3px 0px 0px -1px;
+  }
+
+  .totalbox {
+    width: 175px;
+    height: 115px;
+  }
+
 }
 
 
@@ -3791,7 +3894,7 @@ a {
     width: 100%;
     max-width: 420px;
     height: 112px;
-    top: 988px;
+    top: 645px;
   }
 
   .gallerywraperfotobox {
@@ -3855,4 +3958,148 @@ a {
     height: 31px;
     background-image: url(../assets/center4420.png);
   }
+
+  /*----------tickets section 420-----------*/
+  .tickets {
+    width: 100%;
+    max-width: 420px;
+    height: 759px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .ticketscontentbox {
+    max-width: 100%;
+    width: 380px;
+    height: 679px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .ticketstitlebox {
+    position: relative;
+    width: 380px;
+    height: 63px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .ticketstitle {
+    width: 367px;
+    height: 40px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+
+    margin: 0px 0px 20px 10px;
+  }
+
+  .ticketsline {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .ticketpaybox {
+    width: 100%;
+    max-width: 380px;
+    height: 576px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ticketsimagebox {
+    background-image: url(../assets/imagetickets768.png);
+    width: 380px;
+    height: 160px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .ticketslittlepaybox {
+    width: 175px;
+    height: 376px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .amoundandtotalbox {
+    width: 175px;
+    height: 376px;
+
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundbox {
+    width: 175px;
+    height: 227px;
+    align-items: center;
+  }
+
+  .amoundtitle {
+    width: 103px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    margin: 2px 0px 0px -2px;
+  }
+
+  .amoundcontentbox {
+    width: 175px;
+    height: 188px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .amoundlittlebox {
+    width: 175px;
+    height: 84px;
+  }
+
+  .amoundlittletext {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    margin: 2px 0px 0px -1px;
+  }
+
+  .totalbox {
+    width: 175px;
+    height: 102px;
+    align-items: center;
+  }
+
+  .totalprice {
+    width: 91px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+  }
+
+  .spacetotalprice1024 {
+    display: inline-block;
+    width: 4px;
+    height: 2px;
+  }
+
+  .totalbutton {
+    font-size: 16px;
+  }
+
 }
