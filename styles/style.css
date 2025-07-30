@@ -3137,7 +3137,122 @@ a {
     width: 10px;
     height: 10px;
   }
+
+  /*----------gallery section 768-----------*/
+  .gallery {
+    width: 100%;
+    max-width: 768px;
+    height: 1220px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .gallerycontentbox {
+    position: relative;
+    max-width: 100%;
+    width: 768px;
+    height: 1220px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .gallerytitle {
+    width: 367px;
+    height: 58px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 0px 0px 3px 0px;
+    margin: 40px 0px 22px 19px;
+  }
+
+  .galleryrightwrapervideos {
+    display: none;
+  }
+
+  .gallerygradientbox {
+    width: 100%;
+    max-width: 768px;
+    height: 235px;
+    top: 988px;
+  }
+
+  .gallerywraperfotobox {
+    width: 100%;
+    max-width: 768px;
+    height: 1080px;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .galleryleftwrapervideos {
+    width: 352px;
+    height: 1030px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .gallerycentrwrapervideos {
+    width: 352px;
+    height: 1080px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .galleryvideo {
+    width: 352px;
+  }
+
+  .leftvideo1 {
+    height: 351px;
+    background-image: url(../assets/left1768.png);
+  }
+
+  .leftvideo2 {
+    height: 440px;
+    background-image: url(../assets/left2768.png);
+  }
+
+  .leftvideo3 {
+    height: 191px;
+    background-image: url(../assets/left3768.png);
+  }
+
+  .leftvideo4 {
+    display: none;
+  }
+
+  .centervideo1 {
+    height: 264px;
+    background-image: url(../assets/center1768.png);
+  }
+
+  .centervideo2 {
+    height: 264px;
+    background-image: url(../assets/center2768.png);
+  }
+
+  .centervideo3 {
+    height: 440px;
+    background-image: url(../assets/center3768.png);
+  }
+
+  .centervideo4 {
+    height: 40px;
+    background-image: url(../assets/center4768.png);
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* ↓↓↓ адаптация для 420px ↓↓↓ */
 @media screen and (max-width: 420px) {
@@ -3634,5 +3749,110 @@ a {
   .sliderscontrolsbuttonsize {
     width: 8px;
     height: 8px;
+  }
+
+  /*----------gallery section 420-----------*/
+  .gallery {
+    width: 100%;
+    max-width: 420px;
+    height: 757px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .gallerycontentbox {
+    position: relative;
+    max-width: 100%;
+    width: 420px;
+    height: 757px;
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .gallerytitle {
+    width: 367px;
+    height: 58px;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    padding: 0px 0px 3px 0px;
+    margin: 40px 0px 22px 19px;
+  }
+
+  .galleryrightwrapervideos {
+    display: none;
+  }
+
+  .gallerygradientbox {
+    width: 100%;
+    max-width: 420px;
+    height: 112px;
+    top: 988px;
+  }
+
+  .gallerywraperfotobox {
+    width: 100%;
+    max-width: 429px;
+    height: 637px;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .galleryleftwrapervideos {
+    width: 178px;
+    height: 587px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .gallerycentrwrapervideos {
+    width: 178px;
+    height: 637px;
+    margin: 0px 4px 0px 0px;
+  }
+
+  .galleryvideo {
+    width: 178px;
+  }
+
+  .leftvideo1 {
+    height: 223px;
+    background-image: url(../assets/left1420.png);
+  }
+
+  .leftvideo2 {
+    height: 223px;
+    background-image: url(../assets/left2420.png);
+  }
+
+  .leftvideo3 {
+    height: 93px;
+    background-image: url(../assets/left3420.png);
+  }
+
+  .leftvideo4 {
+    display: none;
+  }
+
+  .centervideo1 {
+    height: 223px;
+    background-image: url(../assets/center1420.png);
+  }
+
+  .centervideo2 {
+    height: 178px;
+    background-image: url(../assets/center2420.png);
+  }
+
+  .centervideo3 {
+    height: 133px;
+    background-image: url(../assets/center3420.png);
+  }
+
+  .centervideo4 {
+    height: 31px;
+    background-image: url(../assets/center4420.png);
   }
 }
