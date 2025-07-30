@@ -3450,6 +3450,73 @@ a {
     margin: 40px 0px 0px 0px;
   }
 
+  /*----------footer section 768-----------*/
+  .page-footer {
+    width: 100%;
+    max-width: 768px;
+    height: 411px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footercontentbox {
+    width: 100%;
+    max-width: 728px;
+    height: 411px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footernavigationbox {
+    width: 100%;
+    max-width: 728px;
+    height: 268px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .navigationssections {
+    width: 107px;
+    height: 113px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .navigationstext {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+  }
+
+  .footerwraperlogobox {
+    width: 672px;
+    height: 121px;
+    margin: 0px 0px 37px 7px;
+    justify-content: start;
+  }
+
+  .footernavigationssections {
+    width: 363px;
+    height: 128px;
+    margin: 11px 0px 0px 98px;
+  }
+
+  .footerwrapersocialmediabox {
+    width: 340px;
+    height: 48px;
+    margin: 25px -8px 38px 305px;
+  }
+
+  .footerrsschoolbox {
+    width: 100%;
+    max-width: 728px;
+    height: 102px;
+    margin: 0px 0px 0px 15px;
+  }
+
 }
 
 
@@ -4208,7 +4275,7 @@ a {
     font-size: 16px;
   }
 
-  /*----------paralax section 768-----------*/
+  /*----------paralax section 420-----------*/
   .paralax {
     background-image: url(../assets/parallax420.png);
     background-attachment: fixed;
@@ -4220,7 +4287,7 @@ a {
     height: 300px;
   }
 
-  /*----------contacts section 768-----------*/
+  /*----------contacts section 420-----------*/
   .contacts {
     width: 100%;
     max-width: 420px;
@@ -4318,5 +4385,155 @@ a {
     margin: 40px 0px 0px 0px;
   }
 
+  /*----------footer section 420-----------*/
+  .page-footer {
+    width: 100%;
+    max-width: 420px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footercontentbox {
+    width: 100%;
+    max-width: 380px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footernavigationbox {
+    width: 100%;
+    max-width: 380px;
+    height: 296px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 0px 0px 0px 0px;
+  }
+
+
+
+  .footerwraperlogobox {
+    width: 380px;
+    height: 128px;
+    margin: 0px 0px 37px 7px;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .footerlogobox {
+    width: 134px;
+    height: 20px;
+  }
+
+  .footerlogo {
+    background-image: url(../assets/footerlogo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 16px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footertextlogo {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .footernavigationssections {
+    width: 380px;
+    height: 68px;
+    margin: 30px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* 3 столбца */
+    grid-template-rows: repeat(2, 39px);
+    /* 2 строки */
+    gap: 10px 20px;
+    /* строки x столбцы */
+  }
+
+  .navigationssections {
+    width: 107px;
+    height: 113px;
+    margin: 0px 0px 0px 0px;
+    display: contents;
+  }
+
+  .navigationstext {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+  }
+
+  /*
+  .navigationstext:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .navigationstext:nth-of-type(2) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .navigationstext:nth-of-type(3) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .navigationstext:nth-of-type(4) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .navigationstext:nth-of-type(5) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .navigationstext:nth-of-type(6) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+*/
+
+  .footerwrapersocialmediabox {
+    width: 260px;
+    height: 48px;
+    margin: 0px -8px 0px 68px;
+  }
+
+  .footerrsschoolbox {
+    width: 100%;
+    max-width: 380px;
+    height: 102px;
+    margin: 0px 0px 0px 22px;
+  }
+
+  .rsscholsizes {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .rsschooltext1 {
+    display: none;
+  }
 
 }
