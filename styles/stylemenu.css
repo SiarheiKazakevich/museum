@@ -23,7 +23,9 @@
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-
+.linesizeburgermenu.hovered {
+  transform: rotate(180deg) scale(1.1);
+}
 
 
 /* ↓↓↓ адаптация для 1024px ↓↓↓ */
