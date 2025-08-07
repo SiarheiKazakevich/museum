@@ -1,0 +1,109 @@
+.menutextbox {
+  /*display: none;*/
+  opacity: 0;
+}
+
+.menufotobox {
+  display: none;
+}
+
+.burgermenu input {
+  display: none;
+}
+
+#burger-toggle:checked~.linesizeburgermenu:nth-of-type(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#burger-toggle:checked~.linesizeburgermenu:nth-of-type(2) {
+  opacity: 0;
+}
+
+#burger-toggle:checked~.linesizeburgermenu:nth-of-type(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+
+
+/* ↓↓↓ адаптация для 1024px ↓↓↓ */
+@media screen and (max-width: 1024px) {
+  .textbox {
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    transition: opacity 0.9s ease;
+  }
+
+  .menutextbox {
+
+    opacity: 1;
+    position: absolute;
+    /*display: block;*/
+    left: -300px;
+    width: 297px;
+    height: 585px;
+    transition: left 1.3s ease;
+  }
+
+  /* #burger-toggle:checked~.welcome .mainwelcomecontent .menutextbox {
+    left: 0;
+  }
+
+  #burger-toggle:checked~.mainwelcomecontent .textbox {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+  }*/
+
+  .menunavlist {
+    width: 122px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0px 0px 35px;
+  }
+
+  .menuli {
+    width: 122px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+
+  }
+
+  .menupointtext {
+    width: fit-content;
+    height: 23px;
+  }
+
+  .menupointarrow {
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/menupointarrow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .monnalizabox {
+    margin: 0px 0px 0px 240px;
+    left: 155px;
+  }
+}
+
+/* ↓↓↓ адаптация для 768px ↓↓↓ */
+@media screen and (max-width: 768px) {}
+
+
+/* ↓↓↓ адаптация для 420px ↓↓↓ */
+@media screen and (max-width: 420px) {}
