@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./styles/style.css" rel="stylesheet" type="text/css">
-
+  <link href="./styles/style2.css" rel="stylesheet" type="text/css">
+  <link href="./styles/stylemenu.css" rel="stylesheet" type="text/css">
+  <link href="./styles/slidersstyles.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="./assets/iconmonnaliza.png">
   <title>Document</title>
@@ -30,16 +32,46 @@
           <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <div class="burgermenu">
-        <div class="linesizeburgermenu"></div>
-        <div class="linesizeburgermenu"></div>
-        <div class="linesizeburgermenu"></div>
-      </div>
+      <label class="burgermenu" for="burger-toggle">
+        <input type="checkbox" id="burger-toggle" />
+        <span class="linesizeburgermenu"></span>
+        <span class="linesizeburgermenu"></span>
+        <span class="linesizeburgermenu"></span>
+      </label>
     </header>
   </div>
   <main class="page-main">
     <section class="welcome" id="welcome">
       <div class="mainwelcomecontent">
+        <div class="menutextbox">
+          <ul class="menunavlist">
+            <li class="menuli"><a class="menuli" href="#visiting">
+                <p class="menupointtext">Visiting</p>
+                <div class="menupointarrow"></div>
+              </a></li>
+            <li class="menuli"><a class="menuli" href="#explore">
+                <p class="menupointtext">Explore</p>
+                <div class="menupointarrow"></div>
+              </a></li>
+            <li class="menuli"><a class="menuli" href="#video">
+                <p class="menupointtext">Video</p>
+                <div class="menupointarrow"></div>
+              </a></li>
+            <li class="menuli"><a class="menuli" href="#gallery">
+                <p class="menupointtext">Gallery</p>
+                <div class="menupointarrow"></div>
+              </a></li>
+            <li class="menuli"><a class="menuli" href="#tickets">
+                <p class="menupointtext">Tickets</p>
+                <div class="menupointarrow"></div>
+              </a></li>
+            <li class="menuli"><a class="menuli" href="#contacts">
+                <p class="menupointtext">Contacts</p>
+                <div class="menupointarrow"></div>
+              </a></li>
+          </ul>
+        </div>
+        <div class="menufotobox"></div>
         <div class="textbox">
           <h1 class="mainwelcometitle">Welcome<br>to the Louvre</h1>
           <p class="welcomesecondtext">From the castle to the museum</p>
@@ -181,7 +213,8 @@
                 <div class="slidersvideosboxcontent">
                   <div class="slidersvideotitlebox">
                     <div class="slidersvideoicon"></div>
-                    <h4 class="slidersvideotitle">Exposition<span class="less420"> - Le Corps</span><span class="spandisplaynone"> et l’Ame. De
+                    <h4 class="slidersvideotitle">Exposition<span class="less420"> - Le Corps</span><span
+                        class="spandisplaynone"> et l’Ame. De
                         Dona</span>...</h4>
                     <div class="slidersvideo3points">
                       <div class="slidersvideopoint"></div>
@@ -196,7 +229,8 @@
                 <div class="slidersvideosboxcontent">
                   <div class="slidersvideotitlebox">
                     <div class="slidersvideoicon"></div>
-                    <h4 class="slidersvideotitle">Au Louvre<span class="less420"> ! La Venu</span><span class="spandisplaynone">s de
+                    <h4 class="slidersvideotitle">Au Louvre<span class="less420"> ! La Venu</span><span
+                        class="spandisplaynone">s de
                         Milo</span><span></span></h4>
                     <div class="slidersvideo3points">
                       <div class="slidersvideopoint"></div>
@@ -420,7 +454,9 @@
     </div>
   </footer>
 </div>
-
+<script src="./scripts/script.js"></script>
+<script src="./scripts/welcome-slider.js"></script>
+<script src="./scripts/welcome-slider2N.js"></script>
 </body>
 
 </html>
