@@ -119,6 +119,7 @@ a {
   height: 2px;
   border: solid 1px #FFFFFF;
   margin: 0px 0px 0px 0px;
+  transition: 0.4s ease;
 }
 
 .navbox {
@@ -316,12 +317,12 @@ a {
 }
 
 .fotomonnaliza {
-  background:
+  /*background:
     linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 16.194%, rgba(0, 0, 0, 0) 30.729%),
     url('../assets/monnaliza.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   width: 1000px;
   height: 750px;
   margin: 0px 0px 0px 0px;
@@ -1862,6 +1863,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
   }
 
   .page-main {
@@ -1958,12 +1960,12 @@ a {
   }
 
   .fotomonnaliza {
-    background:
+    /* background:
       linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 16.194%, rgba(0, 0, 0, 0) 30.729%),
       url('../assets/monnaliza.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     width: 700px;
     height: 525px;
     margin: 0px 110px 0px 0px;
