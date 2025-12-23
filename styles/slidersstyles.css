@@ -1,0 +1,50 @@
+/*---welcome slider------*/
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+  width: 1000px;
+  height: 750px;
+  position: absolute;
+}
+
+/**/
+
+.slide {
+  min-width: 100%;
+  width: 1000px;
+  height: 750px;
+
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+/**/
+.leftarrow:hover,
+.rightarrow:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  /*лёгкое увеличение */
+  background-image: #710707;
+}
+
+.rightarrow:hover {
+  transform: rotate(180deg) scale(1.5);
+}
+
+.square:hover {
+  transform: rotate(45deg) scale(1.5);
+  cursor: pointer;
+}
+
+.slider-wrapper {
+  cursor: grab;
+}
+
+.slider-wrapper:active {
+  cursor: grabbing;
+}
+
+.colorbru {
+  background: #D2B183;
+}
